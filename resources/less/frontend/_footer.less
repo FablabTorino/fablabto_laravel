@@ -1,0 +1,116 @@
+/* Footer Element Setting */
+
+.footer {
+    padding: 20px 0;
+    background: #242a30;
+    text-align: center;
+    .box-shadow(inset 0 100px 80px -80px rgba(0,0,0,0.7));
+
+    & .footer-brand-logo {
+        display: block;
+        margin: 0 auto 10px;
+        width: 100px;
+        height: 100px;
+        background-image: url('/images/brand/brand-fablab.svg');
+        background-size: cover;
+
+    }
+
+    & .footer-brand {
+        font-size: 24px;
+        color: #fff;
+        font-weight: 300;
+        //margin-bottom: 30px;
+    }
+    & .social-list {
+        margin: 30px 0 0;
+        font-size: 20px;
+    }
+
+    & .collab-logo {
+        max-width: 100%;
+        margin: 10px auto;
+        max-height: 50px;
+    }
+}
+
+.footer-section {
+    margin-bottom: 60px;
+}
+.footer .footer-title {
+    text-transform: uppercase;
+    //font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #5A5E63;
+    //margin-bottom: 20px;
+    margin-top: 0;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 28px;
+}
+.footer ul a {
+    color: #919497;
+}
+.footer ul.archives > li .total {
+    font-size: 12px;
+    color: #5A5E63;
+    margin-left: 5px;
+    font-weight: normal;
+}
+.footer ul.recent-post h4 {
+    font-size: 13px;
+}
+.footer ul.recent-post h4 .time {
+    display: block;
+    color: #5A5E63;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: -2px;
+    margin-bottom: 15px;
+}
+.footer ul.recent-post a {
+    font-size: 13px;
+    line-height: 28px;
+}
+.footer address {
+    color: #919497;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+/* 8.2 Footer Copyright Setting */
+
+.footer-copyright {
+    background: #1a2229;
+    padding: 20px 0;
+    font-size: 16px;
+    color: #919497;
+
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    & .social-media-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+        font-size: 16px;
+
+        & > li {
+            float: left;
+        }
+
+        & > li + li {
+            margin-left: 15px;
+        }
+    }
+}

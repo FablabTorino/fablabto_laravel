@@ -1,0 +1,522 @@
+/* -------------------------------
+   12.0 Product Page
+------------------------------- */
+
+/* 12.1 Product Element Setting */
+
+.product {
+    background: #fff;
+    border: 1px solid #c5ced4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.product-detail {
+    display: table;
+    width: 100%;
+}
+
+
+/* 12.2 Product Thumbnail Setting */
+
+.product-image,
+.product-info {
+    display: table-cell;
+    vertical-align: top;
+}
+.product-main-image {
+    margin-left: 100px;
+    padding: 20px;
+    height: 525px;
+    width: 450px;
+    text-align: center;
+
+    & img {
+        max-height: 100%;
+    }
+}
+.product-thumbnail {
+    width: 100px;
+    float: left;
+    padding: 20px;
+    max-height: 525px;
+    overflow: scroll;
+}
+.product-thumbnail-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    & > li a {
+        display: block;
+        text-decoration: none;
+        border: 1px solid #c5ced4;
+        background: #fff;
+        height: 60px;
+        line-height: 50px;
+        padding: 4px;
+        text-align: center;
+
+        & img {
+            max-width: 100%;
+            max-height: 100%;
+            position: relative;
+        }
+    }
+
+    & > li + li {
+        margin-top: 10px;
+    }
+
+    & > li.active a {
+        border-color: #212121;
+    }
+
+}
+
+/* 12.3 Product Image Setting */
+
+.product-image {
+    width: 530px;
+    & img {
+        max-width: 100%;
+    }
+}
+
+
+/* 12.4 Product Info Setting */
+
+.product-info {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.product-info-header {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #D8E0E4;
+}
+.product-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+    & .label {
+        padding: 5px 6px;
+        font-size: 12px;
+        display: block;
+        max-width: 70px;
+        margin-bottom: 7px;
+    }
+}
+
+/* 12.5 Product Availability Setting */
+
+.product-availability {
+    font-size: 18px;
+}
+
+
+/* 12.6 Product Info List Setting */
+
+.product-info-list {
+    color: #636363;
+    list-style-type: none;
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    line-height: 20px;
+    border-bottom: 1px solid #D8E0E4;
+
+    & > li {
+        position: relative;
+        padding-left: 20px;
+
+        & .fa {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: -10px;
+            line-height: 20px;
+            width: 15px;
+            text-align: center;
+
+            &.fa-circle {
+                font-size: 5px;
+            }
+        }
+
+        & + li {
+            margin-top: 3px;
+        }
+    }
+}
+
+
+/* 12.7 Product Category Setting */
+
+.product-category {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+
+    & > li {
+        display: inline;
+
+        & + li {
+            margin-left: 5px;
+        }
+
+        & a {
+            color: #707478;
+        }
+    }
+}
+
+
+/* 12.8 Product Price Setting */
+
+.product-price {
+    margin: 0 0 15px;
+
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    & .price {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+/* 12.9 Product Warranty Setting */
+
+.product-warranty {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #D8E0E4;
+
+    & div {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+}
+
+
+/* 12.10 Product Discount Setting */
+
+.product-discount .discount {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: #707478;
+}
+.product-discount .save {
+    margin-left: 10px;
+    color: #707478;
+    position: relative;
+    top: -1px;
+}
+
+
+/* 12.11 Product Social Setting */
+
+.product-social {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #D8E0E4;
+
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    & ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        & > li {
+            float: left;
+
+            & + li {
+                margin-left: 10px;
+            }
+
+            & > a {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                background: #ddd;
+                color: #fff;
+                display: inline-block;
+                text-align: center;
+                font-size: 16px;
+                border-radius: 3px;
+
+                &.pdf {
+                    background: #d34836;
+                }
+                &.exe {
+                    background: #00aced;
+                }
+                &.driver {
+                    background: #6CC964;
+                }
+                &.link {
+                    background: #6CC964;
+                }
+                &.tumblr {
+                    background: #36465d;
+                }
+            }
+        }
+    }
+}
+
+
+/* 12.12 Product Tab Setting */
+
+.product-tab {
+    margin-top: 40px;
+
+    & .nav.nav-tabs {
+        background: #fff;
+        border-bottom: 1px solid #D8E0E4;
+        text-align: center;
+        font-size: 16px;
+        display: block;
+        .border-radius(0);
+
+        & > li {
+            float: none;
+            display: inline-block;
+
+            & + li {
+                margin-left: 5px;
+            }
+
+            & > a {
+                position: relative;
+                color: #A3A8AD;
+                border: 1px solid transparent;
+
+                &:hover,
+                &:focus {
+                    border-bottom: 1px solid #666;
+                    background: none;
+                }
+            }
+        }
+    }
+
+    & .tab-content {
+        padding: 40px;
+    }
+}
+
+.product-tab .nav-tabs > li.active > a,
+.product-tab .nav-tabs > li.active > a:focus,
+.product-tab .nav-tabs > li.active > a:hover,
+.product-tab .nav-tabs > li > a.active,
+.product-tab .nav-tabs > li > a.active:focus,
+.product-tab .nav-tabs > li > a.active:hover {
+    border-color: transparent;
+    border-bottom: 1px solid #212121;
+    color: #212121;
+}
+
+
+
+/* 12.13 Product Desc Setting */
+
+.product-desc {
+    padding: 20px;
+
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    & .image {
+        float: left;
+        width: 50%;
+        padding-right: 40px;
+
+        & img {
+            max-width: 100%;
+        }
+    }
+
+    & .desc {
+        float: left;
+        width: 50%;
+        padding-left: 40px;
+
+        & h4 {
+            margin: 0 0 15px;
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        & p {
+            font-size: 16px;
+            font-weight: normal;
+            color: #929292;
+            line-height: 26px;
+        }
+    }
+
+    & + .product-desc {
+        margin-top: 20px;
+        padding-top: 40px;
+        border-top: 1px solid #D8E0E4;
+    }
+
+    &.right .image {
+        float: right;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    &.right .desc {
+        float: left;
+        text-align: right;
+        padding-right: 20px;
+        padding-left: 0;
+    }
+}
+
+/* 12.14 Product Table Setting */
+
+
+
+.table.table-product {
+    .field {
+        width: 30%;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    & th,
+    & td {
+        padding: 20px 25px 20px 0;
+    }
+    &.table-striped th,
+    &.table-striped td {
+        padding: 20px 25px;
+    }
+    & th {
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+    }
+    & td {
+        font-size: 14px;
+    }
+
+    tbody {
+        line-height: 1.42857143;
+    }
+}
+
+
+/* 12.15 Product Review Setting
+
+.review + .review {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #D8E0E4;
+}
+.review:before,
+.review:after,
+.review-info:before,
+.review-info:after  {
+    content: '';
+    display: table;
+    clear: both;
+}
+.review .review-icon {
+    height: 36px;
+    width: 36px;
+    background: #f4f5f6;
+    color: #999;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    margin-right: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.review .review-icon img {
+    max-width: 100%;
+}
+.review .review-icon i {
+    line-height: 48px;
+    font-size: 36px;
+}
+.review .review-info {
+    margin-bottom: 10px;
+}
+.review .review-info .review-rate {
+    float: right;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+.review .review-rate .review-star {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.review .review-rate .review-star > li {
+    float: left;
+}
+.review .review-rate .review-star > li + li {
+    margin-left: 3px;
+}
+.review .review-rate .review-star > li.active {
+    color: #f59c1a;
+}
+.review .review-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+.review .review-date {
+    font-size: 12px;
+    color: #999;
+}
+.review .review-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+.review-form {
+    display: block;
+    background: #f4f5f6;
+    padding: 30px;
+}
+.review-form h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #D8E0E4;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+}
+*/

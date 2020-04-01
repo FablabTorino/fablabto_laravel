@@ -1,0 +1,251 @@
+/* Navbar Setting */
+
+.header.navbar {
+    display: block;
+    padding: 0;
+    border-bottom: none;
+    .transition(all .2s linear);
+    
+    & .navbar-nav > li {
+        & > a {
+            font-size: 12px;
+            line-height: 20px;
+            color: #2d353c;
+            font-weight: 600;
+            padding: 30px 15px;
+        }
+        &.active > a,
+        & > a:hover,
+        & > a:focus {
+            background: none;
+        }
+    }
+}
+
+.header.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}
+
+.header.navbar-fixed-bottom,
+.header.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.header.navbar-fixed-top {
+    top: 0;
+}
+.header.navbar-fixed-bottom {
+    bottom: 0;
+}
+.header .navbar-nav {
+    margin: 7.5px -15px;
+}
+.header .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.header .container-fluid > .navbar-collapse,
+.header .container-fluid > .navbar-header,
+.header .container > .navbar-collapse,
+.header .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.header .navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+}
+.header .navbar-fixed-bottom .navbar-collapse,
+.header .navbar-fixed-top .navbar-collapse {
+    max-height: 340px;
+}
+
+/* Navbar Brand Logo & Text Setting */
+.header .navbar-header:before,
+.header .navbar-header:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.header .navbar-brand {
+    padding: 25px 15px 20px 15px;
+    height: auto;
+    float: left;
+}
+.header .navbar-brand img {
+     display: block;
+     margin: -10px 0;
+     max-height: 40px;
+     padding-right: 10px;
+ }
+.brand-logo {
+    float: left;
+    border-color: #4DCACA #31A3A3 #1D8888;
+    margin-right: 10px;
+    margin-top: -5px;
+
+    background-image: url('/images/brand/brand-fablab.svg');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+
+    
+    & + .brand-text {
+        margin-left: 42px;
+        margin-top: 5px;
+        display: block;
+        color: #2d353c;
+        font-size: 20px;
+        line-height: 20px;
+        display: block;
+    }
+}
+
+
+/* Navbar Mobile Toggle */
+.header .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 24px;
+    margin-bottom: 18px;
+    background-color: transparent;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    .border-radius(4px);
+    .transition(all .2s linear);
+}
+.header .navbar-toggle:focus,
+.header .navbar-toggle:active {
+    outline: none;
+}
+.header .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+.header .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    .border-radius(1px);
+}
+.header.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.header.navbar-default .navbar-collapse,
+.header.navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+
+/* Navbar Default Setting  */
+
+.header.navbar.navbar-default {
+    background: #fff;
+}
+
+
+/* Navbar Transparent & Inverse Setting  */
+
+.header.navbar.navbar-transparent {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.header.navbar.navbar-transparent .navbar-nav > li > a,
+.header.navbar.navbar-inverse .navbar-nav > li > a {
+    color: #8F8E8E;
+}
+.header.navbar.navbar-transparent .brand-text,
+.header.navbar.navbar-inverse .brand-text {
+    color: #fff;
+}
+.navbar-transparent .navbar-toggle,
+.navbar-inverse .navbar-toggle {
+    border-color: #8F8E8E;
+}
+.navbar-transparent .navbar-toggle .icon-bar,
+.navbar-inverse .navbar-toggle .icon-bar {
+    background: #8f8e8e;
+}
+
+
+/* Navbar Small Setting */
+
+.header.navbar.navbar-small {
+    border-bottom: none;
+    .box-shadow(0 1px 2px rgba(0,0,0,0.2));
+    
+    & .navbar-brand,
+    & .navbar-nav > li > a {
+        padding: 15px;
+    }
+}
+.header.navbar.navbar-transparent.navbar-small {
+    background: #fff;
+    & .navbar-nav > li > a,
+    & .brand-logo + .brand-text {
+        color: #2d353c;
+    }
+}
+.navbar-small .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    
+    & .icon-bar {
+        background: #888;
+    }
+}
+
+
+/* Navbar Dropdown */
+
+.navbar-nav > li.dropdown:hover > .dropdown-menu,
+.navbar-nav > li.dropdown:focus > .dropdown-menu {
+    display: block;
+}
+.navbar-nav .dropdown-menu {
+    background: #333;
+    .border-radius(0);
+    font-size: 12px;
+    padding: 0;
+    margin-top: 0;
+    border: none;
+    position: absolute;
+
+    
+    & > li > a,
+    & .dropdown-item {
+			color: #999;
+			padding: 10px 15px;
+			display: block;
+			text-decoration: none;
+		}
+		& > li.active > a,
+		& > li > a:hover,
+		& > li > a:focus,
+		& .dropdown-item:hover,
+		& .dropdown-item:focus,
+		& .dropdown-item.active {
+				background: #222;
+				color: #00acac;
+		}
+		& > li + li,
+		& .dropdown-item + .dropdown-item {
+			border-top: 1px solid #444;
+    }
+}
+.navbar-nav .dropdown-menu.dropdown-menu-left {
+    left: 0;
+}
+
+.nav-item {
+    cursor: pointer;
+}

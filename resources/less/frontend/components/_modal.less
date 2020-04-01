@@ -1,0 +1,74 @@
+/* Component - Modal Setting */
+
+.modal-open .modal{
+    background: rgba(0,0,0, 0.6);
+    & .close {
+        margin: -12px -15px -12px 0;
+        background: black;
+        opacity: 1;
+        color: white;
+        border: solid 2px #00acac;
+        border-radius: 50px;
+        position: relative;
+        width: 35px;
+        height: 35px;
+        left: -15px;
+
+        &:hover {
+            background: #00acac;
+            border: solid 2px black;
+        }
+    }
+}
+
+.modal-content {
+    border: none;
+    //box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color: transparent;
+}
+.modal-header {
+    padding: 12px 15px;
+    border-bottom-color: #e2e7eb;
+
+
+}
+
+.modal-body {
+    padding: 15px;
+}
+.modal-footer {
+    border-top-color: #e2e7eb;
+    padding: 14px 15px 15px;
+}
+.modal-message {
+    & .modal-dialog {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    & .modal-content {
+        border-radius: 0;
+    }
+
+    & .modal-body,
+    & .modal-header,
+    & .modal-footer {
+        width: 90%;
+        border: none;
+        margin: 0 auto;
+    }
+}
+
+.modal-backdrop {
+    background: rgba(0,0,0,0.5);
+}
+.modal-backdrop.fade.in {
+    opacity: 0.5;
+}
+
+.modal-dialog {
+    margin: 1.5rem;
+}

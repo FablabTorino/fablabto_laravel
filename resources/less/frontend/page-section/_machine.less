@@ -1,0 +1,45 @@
+/* Machine Element Setting */
+
+
+.machine_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.machine {
+    text-align: center;
+    
+    & .icon {
+        font-size: 72px;
+    }
+
+    & .image {
+        padding: 20px;
+        
+
+
+        & img {
+            width: 40%;
+            &:hover {
+                filter: brightness(0.75);
+            }
+        }
+    }
+
+    & .title {
+        margin-bottom: 5px;
+    }
+    &.machine-vertical {
+        text-align: center;
+        
+        & .icon {
+            float: none;
+            margin: 0 auto 15px;
+        }
+        & .info {
+            margin: 0;
+        }
+    }
+
+}

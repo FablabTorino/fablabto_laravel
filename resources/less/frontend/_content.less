@@ -1,0 +1,168 @@
+/* Content & content elements */
+
+.content {
+    padding: 60px 15px 75px;
+    
+    
+    & .content-title {
+        text-align: center;
+        position: relative;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        margin-top: 0;
+        
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 40px;
+            background: #242a30;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            margin-left: -20px;
+            
+        }
+    }
+    & .content-desc {
+        text-align: center;
+        margin-bottom: 60px;
+        color: #242a30;
+        font-size: 16px;
+    }
+    &.has-bg {
+        padding-bottom: 60px;
+        overflow: hidden;
+        position: relative;
+
+        & video {
+            min-width: 100%;
+            min-height: 100%;
+            right: 0;
+            bottom: 0;
+        }
+        
+        & .content-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+
+            & img {
+                max-width: 100%;
+            }
+            & .content-title:after {
+                background: #fff;
+            }
+
+            &:before {
+                content: '';
+                background: url('/images/bg/bg-content-cover.png');
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
+
+
+        }
+
+        & .container {
+            position: relative;
+            
+            & .content-title {
+                color: #fff;
+            }
+            & .content-desc {
+                color: rgba(255,255,255,0.6);
+            }
+        }
+        & h1,
+        & h2,
+        & h3,
+        & h4,
+        & h5,
+        & h6 {
+            color: #fff;
+        }
+    }
+    &.extraPageTitle {
+        padding-top: 150px;
+        padding-bottom: 10px;
+
+        &.titleSmall {
+            padding-top: 70px;
+        }
+        
+        & .content-title:after{
+            background: #fff;
+        }
+    }
+
+    &.extraPageContent {
+        background: #d9e0e7;
+    }
+    &.extraPageContentLight {
+        background: white;
+    }
+    &.extraPageContentGhost {
+        background: ghostwhite;
+    }
+}
+
+.desc {
+    font-size: smaller;
+}
+
+.center-desc {
+    text-align: center;
+}
+
+/* 3.2 Section Title & Container Setting */
+
+.section-title {
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: relative;
+    color: #333;
+    text-align: center;
+
+    & span {
+        position: relative;
+        z-index: 1020;
+        background: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 2px;
+        top: 0;
+        background: #222;
+        top: 50%;
+        margin-top: -1px;
+        z-index: 0;
+    }
+}
+
+.section-container {
+    margin-bottom: 50px;
+}
+
+.separator {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}

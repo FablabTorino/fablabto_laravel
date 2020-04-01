@@ -1,0 +1,154 @@
+/* 9.3 Promotion Element Setting */
+
+.promotion {
+    position: relative;
+    padding-top: 165px;
+    overflow: hidden;
+    border: 2px solid #00acac;
+    .box-shadow(0px 0px 5px);
+    .border-radius(5px);
+    margin:5px;
+    background: ghostwhite;
+}
+.promotion + .promotion {
+    margin-top: 10px;
+}
+.promotion.promotion-lg {
+    padding-top: 340px;
+}
+.promotion-image {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    bottom: 15px;
+    right: 15px;
+}
+.promotion-lg .promotion-image {
+    left: 30px;
+    top: 30px;
+    bottom: 30px;
+    right: 30px;
+}
+.promotion-image.promotion-image-overflow-bottom {
+    top: auto;
+    bottom: -30px;
+}
+.promotion-image.promotion-image-overflow-top {
+    bottom: auto;
+    top: -30px;
+}
+.promotion-image.promotion-image-overflow-left {
+    left: -30px;
+}
+.promotion-image.promotion-image-overflow-right {
+    right: -30px;
+}
+.promotion-image.promotion-image-overflow-top.promotion-image-overflow-bottom {
+    top: -30px;
+    bottom: -30px;
+}
+.promotion-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.promotion-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    z-index: 1;
+}
+.promotion-lg .promotion-caption {
+    padding: 30px;
+}
+.promotion-title {
+    color: #212121;
+    margin: 0 0 5px;
+    font-size: 20px;
+}
+.promotion-lg .promotion-title {
+    font-size: 34px;
+    margin: 0 0 10px;
+}
+.promotion-desc {
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #666;
+}
+.promotion-lg .promotion-desc {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.promotion-btn {
+    padding: 5px 10px;
+    border: 1px solid #212121;
+    color: #212121;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 12px;
+    position: absolute;
+    bottom: 25px;
+    background: #00acacdd;
+}
+.promotion-lg .promotion-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 2px solid #212121;
+}
+.promotion-btn:hover,
+.promotion-btn:focus,
+.promotion-caption-inverse .promotion-btn:hover,
+.promotion-caption-inverse .promotion-btn:focus {
+    border-color: #fff;
+    color: #212121;
+    text-decoration: none;
+    background: #fff;
+}
+.promotion-price {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.promotion-lg .promotion-price {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.promotion-price small {
+    font-size: 12px;
+}
+.promotion-lg .promotion-price small {
+    font-size: 14px;
+}
+.promotion-caption-inverse {
+    color: #fff;
+}
+.promotion-caption-inverse .promotion-title,
+.promotion-caption-inverse .promotion-price,
+.promotion-caption-inverse .promotion-desc {
+    color: #fff;
+}
+.promotion-lg .promotion-caption-inverse .promotion-desc {
+    //color: rgba(255,255,255,0.5);
+}
+.promotion-caption-inverse .promotion-btn {
+    border-color: rgba(255,255,255,0.25);
+    color: rgba(255,255,255,0.75);
+}
+
+
+.dark-overlay {
+
+    &:after {
+        content: '';
+        background: url('/images/bg/bg-content-cover.png');
+        opacity: 0.3;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+
+}
