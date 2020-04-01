@@ -23,3 +23,6 @@ Homestead.json
 .DS_Store
 .idea/*
 
+composer.lock
+package-lock.json
+
