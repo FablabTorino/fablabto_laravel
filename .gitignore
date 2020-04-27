@@ -15,12 +15,12 @@ public/*
 !public/favicon.ico
 !public/.htaccess
 
+
 storage/*.key
 Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
-!storage/app/public/*
 
 .DS_Store
 .idea/*

@@ -37,3 +37,6 @@ mix.copy('node_modules/pace-js/pace.min.js', 'public/plugins/pace/js/pace.min.js
 // Slit Slider
 mix.copy('resources/js/slitslider/', 'public/plugins/slitslider/');
 
+// Generic Files (PDF, Others)
+mix.copy('resources/files/', 'public/files');
+
