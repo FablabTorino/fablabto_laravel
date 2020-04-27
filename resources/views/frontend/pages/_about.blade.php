@@ -4,9 +4,9 @@
     <div class="container" data-animation="true" data-animation-type="fadeInDown">
         <h2 class="content-title">Cosa puoi fare al Fablab?</h2>
         <div class="content-desc">
-            Fablab Torino &egrave; un’<span class="text-theme">associazione culturale</span>,
-            un laboratorio di <span class="text-theme">fabbricazione digitale</span> e un
-            <span class="text-theme">makerspace</span>.
+            Fablab Torino &egrave; un’<span class="text-highlight">associazione culturale</span>,
+            un laboratorio di <span class="text-highlight">fabbricazione digitale</span> e un
+            <span class="text-highlight">makerspace</span>.
             <br>
             Qui trovi gli spazi, gli strumenti e le persone di cui hai bisogno per trasformare i
             tuoi progetti in realt&agrave;.

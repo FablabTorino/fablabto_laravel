@@ -46,7 +46,7 @@
                 (1 credito = 1 euro. Trovi il numero di crediti necessari all'utilizzo nella pagina relativa alla macchina
                 che ti interessa).<br />
                 <br />
-                <span class="text-theme bold">La tessera include la copertura assicurativa ed &egrave; valida fino al 31 dicembre
+                <span class="text-highlight">La tessera include la copertura assicurativa ed &egrave; valida fino al 31 dicembre
             dell'anno di iscrizione.</span><br />
                 <br />
                 Se hai letto le <a href="faq">FAQ</a>, sei pronto per partire. Scegli la tessera che fa per te e diventa un fablabber!

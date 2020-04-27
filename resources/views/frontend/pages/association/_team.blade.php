@@ -3,7 +3,7 @@
         <div class="container">
             <h2 class="content-title">Chi Siamo</h2>
             <p class="content-desc">
-                Il <span class="text-theme bold">Consiglio Direttivo del Fablab Torino</span> viene eletto direttamente <br>
+                Il <span class="text-highlight">Consiglio Direttivo del Fablab Torino</span> viene eletto direttamente <br>
                 dai membri dell'associazione ogni 2 anni. Attualmente &egrave; composto da:
             </p>
             <!-- begin row -->

@@ -13,7 +13,7 @@
             <a class="dropdown-item" href="/association" data-target="#association">Associazione</a>
             <a class="dropdown-item" href="/history" data-target="#history">Storia del Fablab</a>
             <a class="dropdown-item" href="/projects" data-target="#projects">Progetti</a>
-            <a class="dropdown-item" href="/areas" data-target="#areas">Aree</a>
+            <!--a class="dropdown-item" href="/areas" data-target="#areas">Aree</a -->
         </div>
     </li>
 

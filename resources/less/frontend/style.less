@@ -39,6 +39,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 a {
     .transition(all .2s linear);
+    font-weight: bold;
 }
 a:focus {
     outline: none;
@@ -87,4 +88,10 @@ p {
 	font-style: normal;
     font-variant: normal;
     text-rendering: auto;
+}
+
+.inline-svg-code( @code ) {
+    @-svg-code: escape(~'<?xml version="1.0" ?>@{code}');
+    @-inline-svg-code: ~'data:image/svg+xml,@{-svg-code}';
+    @-inline-svg-url: ~"url('@{-inline-svg-code}')";
 }

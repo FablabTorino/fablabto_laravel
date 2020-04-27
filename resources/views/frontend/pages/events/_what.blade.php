@@ -5,7 +5,7 @@
             Sei nuovo del Fablab e vuoi imparare i ferri del mestiere del maker?
         </div>
         <div class=" content-desc">
-            Ogni mese organizziamo i <span class="text-theme bold">corsi gratuiti Hello World,</span>
+            Ogni mese organizziamo i <span class="text-highlight">corsi gratuiti Hello World,</span>
             indispensabili per apprendere le basi e ottenere l'abilitazione necessaria per prenotare e utilizzare le
             nostre macchine in autonomia.</br>
             Stampa 3D, taglio laser, fresa CNC, vinyl cutter ma anche elettronica, software di progettazione, tecniche
@@ -17,7 +17,7 @@
         </div>
         <div class=" content-desc">
             Ci siamo ispirati a uno dei primi esercizi per avvicinarsi alla programmazione, che consiste in qualcosa
-            di semplice ma essenziale: <span class="text-theme bold">salutare!</span> </br>
+            di semplice ma essenziale: <span class="text-highlight">salutare!</span> </br>
             Ai nostri corsi base impari proprio questo. L’essenziale, spiegato semplice.
         </div>
 

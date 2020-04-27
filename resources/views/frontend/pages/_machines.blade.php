@@ -91,7 +91,7 @@
             <!-- end row -->
 
             <p class="center-desc">
-                Inoltre trovi un bancone di <span class="text-theme">elettronica, attrezzi di falegnameria</span> e un frigo sempre pieno di birrette fresche!
+                Inoltre trovi un bancone di <span class="text-highlight">elettronica, attrezzi di falegnameria</span> e un frigo sempre pieno di birrette fresche!
             </p>
 
             <!-- POPUP WITH SPECIFIC MACHINES -->

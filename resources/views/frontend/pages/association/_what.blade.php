@@ -4,22 +4,22 @@
 
             <div class="col-md-12 quote">
                 Il primo laboratorio di fabbricazione digitale italiano apre a Torino nel 2011 con
-                il nome di <span class="text-theme bold">Fablab Italia</span>, <br>in occasione della mostra
+                il nome di <span class="text-highlight">Fablab Italia</span>, <br>in occasione della mostra
                 Stazione Futuro alle Officine Grandi Riparazioni per i 150 anni dell'Unit&agrave; d'Italia. <br>
                 Nel 2012 il laboratorio viene riaperto, questa volta in pianta stabile, negli spazi di Toolbox Coworking:<br>
-                nasce <span class="text-theme bold">Fablab Torino</span>!
+                nasce <span class="text-highlight">Fablab Torino</span>!
             </div>
 
             <div class="content-desc">
                 Fablab Torino &egrave; un'associazione culturale, un laboratorio di fabbricazione digitale e un makerspace.
-                I <span class="text-theme bold">Fab</span>rication <span class="text-theme bold">Lab</span>oratories sono luoghi dove il
+                I <span class="text-highlight">Fab</span>rication <span class="text-highlight">Lab</span>oratories sono luoghi dove il
                 fai-da-te tradizionale incontra le tecnologie Open Source e le tecniche per la prototipazione rapida.
                 In un FabLab trovi stampanti 3D, macchine per il taglio laser, fresatrici a controllo numerico, schede
                 elettroniche e altri ferri del mestiere per trasformare le tue idee in progetti e i progetti in realt&agrave;.
             </div>
 
             <div class="content-desc">
-                Ormai l'avrai capito: <span class="text-theme bold">al Fablab Torino costruiamo cose. La pi&ugrave; importante &egrave;
+                Ormai l'avrai capito: <span class="text-highlight">al Fablab Torino costruiamo cose. La pi&ugrave; importante &egrave;
                     la nostra community</span>. Che tu sia un professionista, uno studente o un autodidatta non importa, al FablabTO
                 trovi gli strumenti giusti per realizzare i tuoi progetti e altri appassionati come te con cui condividere idee,
                 invenzioni e competenze.

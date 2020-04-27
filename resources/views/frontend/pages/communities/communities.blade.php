@@ -47,7 +47,7 @@
                 condividere le proprie creazioni, chiedere un confronto o un consiglio, o semplicemente fare due chiacchiere.
             </div>
             <div class="col-md-12 quote">
-                <span class="text-theme bold" >Puoi partecipare anche se non sei tesserato e non è necessaria l'iscrizione: vieni e buttati!
+                <span class="text-highlight" >Puoi partecipare anche se non sei tesserato e non è necessaria l'iscrizione: vieni e buttati!
             </div>
 
             <div class="col-md-12">
