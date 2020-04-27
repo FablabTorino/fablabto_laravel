@@ -49,7 +49,7 @@
                 <span class="text-highlight">La tessera include la copertura assicurativa ed &egrave; valida fino al 31 dicembre
             dell'anno di iscrizione.</span><br />
                 <br />
-                Se hai letto le <a href="faq">FAQ</a>, sei pronto per partire. Scegli la tessera che fa per te e diventa un fablabber!
+                Se hai letto le <a href="faq">FAQ</a>, <a href="#">lo statuto</a> e <a href="#">il regolamento</a>,  sei pronto per partire! Scegli la tessera che fa per te e diventa un fablabber!
             </div>
 
             <!-- begin #memberships -->
