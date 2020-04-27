@@ -20,6 +20,7 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+!storage
 
 .DS_Store
 .idea/*
