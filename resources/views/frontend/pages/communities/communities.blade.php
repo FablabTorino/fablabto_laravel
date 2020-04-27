@@ -9,7 +9,7 @@
 
 @extends('layouts.frontend')
 
-@section('title', 'Fablab Torino | Communities')
+@section('title', 'Fablab Torino | Community')
 
 @section('content')
 
@@ -26,7 +26,7 @@
         <div class="container" data-animation="true" data-animation-type="fadeInLeft">
             <!-- begin title -->
             <h2 class="content-title">
-                Communities
+                Community
             </h2>
             <!-- end title -->
         </div>
