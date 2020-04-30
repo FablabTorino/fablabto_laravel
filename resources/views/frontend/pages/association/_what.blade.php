@@ -34,11 +34,17 @@
                 <div class="col-md-4 col-sm-12">
                     <!-- Regolamento -->
                     <div class="service">
-                        <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="far fa-file-alt"></i></div>
-                        <div class="info">
-                            <h4 class="title">Consulta il regolamento</h4>
-                            <p class="desc">Duis in lorem placerat, iaculis nisi vitae, ultrices tortor. Vestibulum molestie ipsum nulla. Maecenas nec hendrerit eros, sit amet maximus leo.</p>
-                        </div>
+                        <a href="/rules">
+                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="far fa-file-alt"></i></div>
+                            <div class="info">
+                                <h4 class="title">Consulta il regolamento</h4>
+                                <p class="desc">Il regolamento di Fablab Torino contiene tutte le informazioni per il corretto
+                                    utilizzo degli spazi del Fablab e dei suoi macchinari, le condizioni del tesseramento e
+                                    dei crediti, la partecipazione alle community, l'organizzazione di eventi. Ti consigliamo
+                                    di leggerlo attentamente prima dell'iscrizione!
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <!-- end Regolamento-->
 
@@ -47,11 +53,18 @@
                 <div class="col-md-4 col-sm-12">
                     <!-- Statuto -->
                     <div class="service">
-                        <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fas fa-scroll"></i></div>
-                        <div class="info">
-                            <h4 class="title">Scarica lo statuto</h4>
-                            <p class="desc">Duis in lorem placerat, iaculis nisi vitae, ultrices tortor. Vestibulum molestie ipsum nulla. Maecenas nec hendrerit eros, sit amet maximus leo.</p>
-                        </div>
+                        <a href="/files/StatutoFablab.pdf">
+                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fas fa-scroll"></i></div>
+                            <div class="info">
+                                <h4 class="title">Scarica lo statuto</h4>
+                                <p class="desc">Lo Statuto della nostra Associazione &egrave; pubblico e sempre a disposizione
+                                    per la libera consultazione. Contiene tutte le informazioni sulla natura dell'Associazione
+                                    e i suoi obiettivi, i diritti e doveri dei soci e dei sostenitori, il funzionamento delle
+                                    Assemblee, la composizione del Consiglio Direttivo e l'amministrazione delle risorse
+                                    economiche del Fablab.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <!-- end Statuto-->
                 </div>
@@ -59,11 +72,16 @@
                 <div class="col-md-4 col-sm-12">
                     <!-- Iscriviti -->
                     <div class="service">
-                        <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="far fa-id-card"></i></div>
-                        <div class="info">
-                            <h4 class="title">Iscriviti al Fablab</h4>
-                            <p class="desc">Duis in lorem placerat, iaculis nisi vitae, ultrices tortor. Vestibulum molestie ipsum nulla. Maecenas nec hendrerit eros, sit amet maximus leo.</p>
-                        </div>
+                        <a href="/pricing">
+                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="far fa-id-card"></i></div>
+                            <div class="info">
+                                <h4 class="title">Iscriviti al Fablab</h4>
+                                <p class="desc">Scegli la tessera più adatta a te e entra a far parte dei nostri Associati!
+                                    Potrai frequentare il laboratorio e i corsi gratuiti riservati ai soci, acquistare i crediti
+                                    e prenotare le macchine per realizzare i tuoi progetti.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <!-- end Iscriviti-->
                 </div>

@@ -29,10 +29,10 @@ Route::get('/newsletter', function () {return view('frontend.pages.events.newsle
 Route::get('/3dprint/creality', function () {return view('frontend.pages.machines._creality');});
 Route::get('/3dprint/kossel', function () {return view('frontend.pages.machines._kossel');});
 
-
 Route::get('/laser/matilda', function () {return view('frontend.pages.machines.matilda.matilda');});
 Route::get('/laser/eureka', function () {return view('frontend.pages.machines._eureka');});
 
-
 Route::get('/cnc/fresone', function () {return view('frontend.pages.machines._fresone');});
 Route::get('/cnc/roland', function () {return view('frontend.pages.machines._roland');});
+
+Route::get('/vinyl/camm', function () {return view('frontend.pages.machines._vinyl');});

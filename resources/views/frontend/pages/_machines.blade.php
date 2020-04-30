@@ -61,7 +61,7 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="machine">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
-                            <a href="vinyl"><img src="images/machines/vinyl.svg" alt="Vinyl Cutter" /></a>
+                            <a href="#modal-vinyl" data-toggle="modal"><img src="images/machines/vinyl.svg" alt="Vinyl Cutter" /></a>
                         </div>
                         <div class="info">
                             <h4 class="title">Vinyl Cutter</h4>
@@ -98,6 +98,7 @@
             @include('frontend.pages.machines.3dprint')
             @include('frontend.pages.machines.laser')
             @include('frontend.pages.machines.cnc')
+            @include('frontend.pages.machines.vinyl')
             <!-- END POPUP WITH SPECIFIC MACHINES -->
 
         </div>
