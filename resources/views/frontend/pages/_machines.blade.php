@@ -104,9 +104,3 @@
         </div>
         <!-- end container -->
     </div>
-
-@push('scripts')
-    <script>
-
-    </script>
-@endpush

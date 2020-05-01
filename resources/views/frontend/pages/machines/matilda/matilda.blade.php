@@ -53,14 +53,11 @@
                         <!-- BEGIN CARATTERISTICHE -->
                         <ul class="product-info-list">
                             <li><i class="fa fa-circle"></i> Area di taglio: 120 x 90 cm</li>
-                            <li><i class="fa fa-circle"></i> Piano di lavoro: Regolabile elettronicamente in altezza</li>
                             <li><i class="fa fa-circle"></i> Altezza materiale lavorabile: 200mm</li>
                             <li><i class="fa fa-circle"></i> Spessore di taglio:  0-10mm</li>
                             <li><i class="fa fa-circle"></i> Risoluzione grafica: 0,0254mm (1000dpi)</li>
-                            <li><i class="fa fa-circle"></i> Potenza laser: 120 watt</li>
-                            <li><i class="fa fa-circle"></i> Tipologia laser: CO2</li>
+                            <li><i class="fa fa-circle"></i> Potenza laser: 120 watt CO2</li>
                             <li><i class="fa fa-circle"></i> Controller: Leetro MPC6585</li>
-                            <li><i class="fa fa-circle"></i> Software: LaserCut 6.1</li>
                         </ul>
                         <!-- END CARATTERISTICHE -->
 
@@ -78,6 +75,17 @@
                         <!-- END PREREQUISITI -->
 
                         <!-- BEGIN MATERIALE UTILE -->
+                        <div class="product-warranty">
+                            <div class="pull-right product-social">
+                                <ul>
+                                    <li><a href="http://www.leetro.com/english/down/productcatalog2015/Manual/MPC6585/Software%20Manual/MPC6585%20Software%20LaserCut61%20Manual%20V1.1.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
+                                    <li><a href="http://www.leetro.com/english/down/productcatalog2015/SoftwareDriver/MPC6585/LaserCut61%20(MPC6585)%20Installer.rar" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Software" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
+                                    <li><a href="http://www.leetro.com/english/sale/1-3.html" class="link" data-toggle="tooltip" data-trigger="hover" data-title="Sito Ufficiale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-globe"></i></a></li>
+                                </ul>
+                            </div>
+                            <div><b>Link utili:</b></div>
+                        </div>
+                        <!--
                         <div class="product-social text-center">
                             <ul>
                                 <li><a href="http://www.leetro.com/english/down/productcatalog2015/Manual/MPC6585/Software%20Manual/MPC6585%20Software%20LaserCut61%20Manual%20V1.1.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="top" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
@@ -85,6 +93,7 @@
                                 <li><a href="http://www.leetro.com/english/sale/1-3.html" class="link" data-toggle="tooltip" data-trigger="hover" data-title="Sito Ufficiale" data-placement="top" data-original-title="" title=""><i class="fas fa-globe"></i></a></li>
                             </ul>
                         </div>
+                        -->
                         <!-- END MATERIALE UTILE -->
 
                         <!-- BEGIN PREZZO -->

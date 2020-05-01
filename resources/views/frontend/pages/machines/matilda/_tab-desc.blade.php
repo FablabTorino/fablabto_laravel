@@ -113,7 +113,8 @@
             </tr>
             </tbody>
         </table>
-        <!-- END table-product -->
+        <-- END table-product -->
+
     </div>
     <!-- END table-responsive -->
 </div>
