@@ -17,34 +17,33 @@
                 Ogni browser ha un suo modo per limitare o disabilitare i cookie come meglio specificato più avanti.
             </p>
 
-            <p><strong>Perchè FablabTorino usa i cookie:</strong><br>
+            <p><strong>Perchè FablabTorino usa i cookie:</strong><br/>
                 Per fornire un'esperienza di navigazione ottimale e permettere al sito di funzionare correttamente, sul
                 sito vengono utilizzati prevalentemente cookie tecnici (ad esempio per poter visualizzare la nostra
                 posizione
                 sulla mappa di Google). Inoltre essi permettono di migliorare le performance della pagina.
             </p>
 
-            <p><strong>FablabTorino usa i seguenti cookie tecnici:</strong><br>
-                <ul>
-                    <li>laravel_cookie_consent (utilizzato per memorizzare il consenso ai cookie)</li>
-                    <li>laravel_session (utilizzato per memorizzare la sessione utente)</li>
-                    <li>XSRF_TOKEN (<a href="https://it.wikipedia.org/wiki/Cross-site_request_forgery">per aumentare il
-                            livello di sicurezza del sito</a>)
-                    </li>
-                </ul>
-            </p>
-            <p><strong>Come disabilitare i cookie:</strong><br>
+            <p><strong>FablabTorino usa i seguenti cookie tecnici:</strong><br/></p>
+            <ul>
+                <li>laravel_cookie_consent (utilizzato per memorizzare il consenso ai cookie)</li>
+                <li>laravel_session (utilizzato per memorizzare la sessione utente)</li>
+                <li>XSRF_TOKEN (<a href="https://it.wikipedia.org/wiki/Cross-site_request_forgery">per aumentare il
+                        livello di sicurezza del sito</a>)
+                </li>
+            </ul>
+
+            <p><strong>Come disabilitare i cookie:</strong><br/>
                 L'utente può scegliere di non abilitare l'esecuzione dei cookies agendo sulle impostazioni del
                 proprio browser. Ecco alcune istruzioni per la disabilitazione dei cookies relative ai browser più
                 utilizzati:
-
-                <ul>
-                    <li><a href="https://support.google.com/chrome/answer/95647?hl=it">Google Chrome</a></li>
-                    <li><a href="https://support.mozilla.org/it/kb/Gestione%20dei%20cookie">Firefox</a></li>
-                    <li><a href="http://windows.microsoft.com/it-it/windows7/how-to-manage-cookies-in-internet-explorer-9">Internet explorer</a></li>
-                    <li><a href="https://support.apple.com/kb/HT1677?viewlocale=it_IT">Safari</a></li>
-                </ul>
             </p>
+            <ul>
+                <li><a href="https://support.google.com/chrome/answer/95647?hl=it">Google Chrome</a></li>
+                <li><a href="https://support.mozilla.org/it/kb/Gestione%20dei%20cookie">Firefox</a></li>
+                <li><a href="http://windows.microsoft.com/it-it/windows7/how-to-manage-cookies-in-internet-explorer-9">Internet explorer</a></li>
+                <li><a href="https://support.apple.com/kb/HT1677?viewlocale=it_IT">Safari</a></li>
+            </ul>
         </div>
     </div>
 </div>
