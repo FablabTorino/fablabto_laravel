@@ -137,7 +137,7 @@
                 <div class="product-tab">
                     <!-- BEGIN #product-tab -->
                     <ul id="product-tab" class="nav nav-tabs">
-                        <li class="nav-item"><a class="nav-link active" href="#product-desc" data-toggle="tab">Materiali</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#product-materials" data-toggle="tab">Materiali</a></li>
                         <li class="nav-item"><a class="nav-link" href="#product-info" data-toggle="tab">Pennini</a></li>
                         <li class="nav-item"><a class="nav-link" href="#product-reviews" data-toggle="tab">F.A.Q.</a></li>
                     </ul>
@@ -146,9 +146,9 @@
                     <!-- BEGIN #product-tab-content -->
                     <div id="product-tab-content" class="tab-content">
 
-                        @include('frontend.pages.machines.matilda._tab-info')
+                        @include('frontend.pages.machines.matilda._tab-materials')
 
-                        @include('frontend.pages.machines.matilda._tab-desc')
+                        @include('frontend.pages.machines.matilda._tab-info')
 
                         @include('frontend.pages.machines.matilda._tab-review')
 

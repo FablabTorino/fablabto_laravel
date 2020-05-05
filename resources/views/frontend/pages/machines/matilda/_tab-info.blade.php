@@ -1,5 +1,5 @@
 <!-- BEGIN #product-desc -->
-<div class="tab-pane fade active show" id="product-desc">
+<div class="tab-pane fade " id="product-info">
     <!-- BEGIN product-desc -->
     <div class="product-desc">
         <div class="image">

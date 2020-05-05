@@ -409,26 +409,47 @@
 
 
 .table.table-product {
+    font-size: 14px;
+
     .field {
-        width: 30%;
-        font-size: 18px;
-        font-weight: 300;
+        width: 40%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .category {
+        padding: 5px;
+        font-weight: bold;
+        &:hover {
+            background: #cceeee !important;
+        }
     }
     & th,
     & td {
-        padding: 20px 25px 20px 0;
+        //margin: 20px 25px 20px 0;
+        padding: 2px;
+        vertical-align: middle;
+        text-align: center;
     }
     &.table-striped th,
     &.table-striped td {
         padding: 20px 25px;
     }
     & th {
-        font-size: 18px;
-        font-weight: 600;
         border: none;
     }
     & td {
-        font-size: 14px;
+        width: 20%;
+    }
+
+    .with-img {
+        font-size: 20px;
+
+        & .fa-check-circle {
+            color: green;
+        }
+        & .fa-times-circle {
+            color: red;
+        }
     }
 
     tbody {
