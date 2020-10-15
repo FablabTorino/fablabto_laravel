@@ -34,7 +34,7 @@
                             <li>Frequentare tutte le attività del FablabTO</li>
                         </ul>
                         <div class="footer">
-                            <a href="#" class="btn btn-inverse btn-block">Io! Sono uno studente! OK!</a>
+                            <a href="http://bit.ly/fabToIscrizione18" class="btn btn-inverse btn-block">Io! Sono uno studente! OK!</a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                             <li>Frequentare tutte le attività del FablabTO</li>
                         </ul>
                         <div class="footer">
-                            <a href="#" class="btn btn-inverse btn-block">E vada per una Base! Mi iscrivo!</a>
+                            <a href="http://bit.ly/fabToIscrizione18" class="btn btn-inverse btn-block">E vada per una Base! Mi iscrivo!</a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                             <li>Pensata per piccole partite IVA che hanno necessità di produzioni continue</li>
                         </ul>
                         <div class="footer">
-                            <a href="#" class="btn btn-theme btn-block">Go PRO GO!</a>
+                            <a href="http://bit.ly/fabToIscrizione18" class="btn btn-theme btn-block">Go PRO GO!</a>
                         </div>
                     </div>
                 </div>
