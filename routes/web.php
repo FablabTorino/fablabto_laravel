@@ -26,13 +26,13 @@ Route::get('/communities', function () {return view('frontend.pages.communities.
 Route::get('/newsletter', function () {return view('frontend.pages.events.newsletter');});
 
 // Machines and detailed pages
-Route::get('/3dprint/creality', function () {return view('frontend.pages.machines._creality');});
-Route::get('/3dprint/kossel', function () {return view('frontend.pages.machines._kossel');});
+Route::get('/3dprint/creality', function () {return view('frontend.pages.machines.under_constr');});
+Route::get('/3dprint/kossel', function () {return view('frontend.pages.machines.under_constr');});
 
 Route::get('/laser/matilda', function () {return view('frontend.pages.machines.matilda.matilda');});
-Route::get('/laser/eureka', function () {return view('frontend.pages.machines._eureka');});
+Route::get('/laser/eureka', function () {return view('frontend.pages.machines.under_constr');});
 
-Route::get('/cnc/fresone', function () {return view('frontend.pages.machines._fresone');});
-Route::get('/cnc/roland', function () {return view('frontend.pages.machines._roland');});
+Route::get('/cnc/fresone', function () {return view('frontend.pages.machines.under_constr');});
+Route::get('/cnc/roland', function () {return view('frontend.pages.machines.under_constr');});
 
-Route::get('/vinyl/camm', function () {return view('frontend.pages.machines._vinyl');});
+Route::get('/vinyl/camm', function () {return view('frontend.pages.machines.under_constr');});
