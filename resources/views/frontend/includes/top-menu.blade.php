@@ -18,7 +18,7 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="/index.html#machines" data-target="#machines" data-click="scroll-to-target">MACCHINE </a>
+        <a class="nav-link" data-target="#machines" data-click="scroll-to-target">MACCHINE </a>
     </li>
 
     <li class="nav-item dropdown">

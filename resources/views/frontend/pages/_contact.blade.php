@@ -20,7 +20,8 @@
                         dalle 16.00 alle 20.00.
                         <br />
                         Non sei associato? Vieni a trovarci durante l’<a href="openday">Open Day</a>, ogni <strong>mercoledì</strong>
-                        dalle 19.00 alle 20.00.
+                        dalle 19.00 alle 20.00. <strong class="text-danger">Per partecipare all'Open Day &egrave;
+                            necessario inviare un'email di prenotazione a <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a></strong>
                     </p>
                 </div>
 

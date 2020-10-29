@@ -41,7 +41,10 @@
                 Vuoi vedere il Fablab Torino con i tuoi occhi, toccare con mano le nostre macchine, fare due chiacchiere
                 con noi di persona? </br>
                 Passa a trovarci al nostro Open Day, <span class="text-highlight">ogni mercoledì dalle
-                19.00 alle 20.00</span>. Prenota il tuo turno, non vediamo l’ora di conoscerti!
+                19.00 alle 20.00</span>.<br/>
+                <strong class="text-danger"> Per partecipare all'Open Day è necessario inviare un'email di prenotazione
+                    a <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a></strong>
+
             </p>
 
         </div>
