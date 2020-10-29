@@ -1,6 +1,8 @@
 # fablabto_laravel
 New FablabTorino Website in Laravel
 
-You can visit the site at the temporary link fablabtorino.website
+To install on Namecheap VPS:
 
-The html code is in `resources/views/frontend/pages`. Useful information for editing texts. 
+1. clone repo in "laravel" folder
+2. inside laravel folder run "php -c php.ini composer.phar install"
+3. copy PUBLIC folder (output of "npm run prod") on server 
