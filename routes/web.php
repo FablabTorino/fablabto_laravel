@@ -24,6 +24,7 @@ Route::get('/openday', function () {return view('frontend.pages.events.openday')
 Route::get('/helloworld', function () {return view('frontend.pages.events.helloworld');});
 Route::get('/communities', function () {return view('frontend.pages.communities.communities');});
 Route::get('/newsletter', function () {return view('frontend.pages.events.newsletter');});
+Route::get('/pay', function () {return view('frontend.pages.pricing.pay');});
 
 // Machines and detailed pages
 Route::get('/3dprint/creality', function () {return view('frontend.pages.machines.under_constr');});
