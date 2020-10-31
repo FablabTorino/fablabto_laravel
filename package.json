@@ -32,6 +32,7 @@
         "cross-browser": "^0.1.0",
         "js-cookie": "^2.2.0",
         "scrollmonitor": "^1.2.4",
-        "paroller.js": "^1.4.6"
+        "paroller.js": "^1.4.6",
+        "qrcode": "^1.4.4"
     }
 }

@@ -10,5 +10,6 @@ require('cross-browser');
 window.Cookies = require('js-cookie');
 require('scrollMonitor');
 require('paroller.js');
+window.QRCode = require('qrcode');
 
 

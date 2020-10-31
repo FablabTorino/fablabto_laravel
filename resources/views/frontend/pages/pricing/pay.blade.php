@@ -102,17 +102,26 @@
                         </form-->
 
                         <!-- Tesseramento annuale - 4° trimestre -->
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="TLL7FYKCMRPD2">
+                        <form id="form_action" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input id="form_cmd" type="hidden" name="cmd" value="_s-xclick">
+                            <input id="form_hosted_btn_id" type="hidden" name="hosted_button_id" value="TLL7FYKCMRPD2">
                             <table style="width: 100%">
-                                <tr><td><input type="hidden" name="on0" value="Tipologia di iscrizione">Tipologia di iscrizione</td></tr><tr><td><select name="os0">
+                                <tr>
+                                    <td><input id="form_on0" type="hidden" name="on0" value="Tipologia di iscrizione">Tipologia di
+                                        iscrizione
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><select id="form_os0" name="os0" onchange="generateQr()">
                                             <option value="Tesseramento Base">Tesseramento Base €40,00 EUR</option>
-                                            <option value="Tesseramento Studenti">Tesseramento Studenti €20,00 EUR</option>
+                                            <option value="Tesseramento Studenti">Tesseramento Studenti €20,00 EUR
+                                            </option>
                                             <option value="Tesseramento Pro">Tesseramento Pro €200,00 EUR</option>
-                                        </select> </td></tr>
+                                        </select>
+                                    </td>
+                                </tr>
                             </table>
-                            <input type="hidden" name="currency_code" value="EUR">
+                            <input id="form_currency" type="hidden" name="currency_code" value="EUR">
                             <input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online.">
                             <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
                         </form>
@@ -120,7 +129,7 @@
                 </div>
                 <!-- end col-4 -->
 
-                <!-- begin col-4 -->
+                <!-- begin col-4 FabCOINS - ->
                 <div class="col-md-4 col-sm4">
                     <div class="machine">
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -139,7 +148,26 @@
                         </form>
                     </div>
                 </div>
+                <! - end col-4 -->
+
+                <!-- begin col-4 QRCodes -->
+                <div class="col-md-4 col-sm4">
+                    <div class="machine">
+                        <h5>QR Code Paypal</h5>
+                        <canvas id="qr_canvas"></canvas>
+                    </div>
+                </div>
                 <!-- end col-4 -->
+
+                <!-- begin col-4 QRCodes -->
+                <div class="col-md-4 col-sm4">
+                    <div class="machine">
+                        <h5>Satispay</h5>
+                        <canvas id="qr_canvas_2"></canvas>
+                    </div>
+                </div>
+                <!-- end col-4 -->
+
             </div>
             <!-- end row -->
 
@@ -148,3 +176,38 @@
     </div>
 
 @endsection
+
+@push('end_scripts')
+    <script type="text/javascript">
+
+    function generateQr() {
+        var canvas = document.getElementById('qr_canvas');
+
+        var qrData = document.getElementById("form_action").action  + '?' +
+                  document.getElementById("form_cmd").name + '=' + document.getElementById("form_cmd").value +
+            '&' + document.getElementById("form_hosted_btn_id").name + '=' + document.getElementById("form_hosted_btn_id").value +
+            '&' + document.getElementById("form_on0").name + '=' + document.getElementById("form_on0").value.replace(/ /g, '+') +
+            '&' + document.getElementById("form_os0").name + '=' + document.getElementById("form_os0").value.replace(/ /g, '+') +
+            '&' + document.getElementById("form_currency").name + '=' + document.getElementById("form_currency").value  ;
+
+        console.log(qrData);
+        QRCode.toCanvas(canvas, qrData, { version: 9 }, function (error) {
+            if (error)
+                console.error(error)
+        });
+    }
+    </script>
+
+    <script>
+        $(document).ready(function() {
+           generateQr();
+
+            var canvas2 = document.getElementById('qr_canvas_2');
+            QRCode.toCanvas(canvas2, 'https://satispay.com/download/qrcode/S6Y-SHP-10AC9628-F752-4DE2-8485-6072DA83139B', { version: 9 }, function (error) {
+                if (error)
+                    console.error(error)
+            });
+
+        });
+    </script>
+@endpush
