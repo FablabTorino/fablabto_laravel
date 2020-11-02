@@ -5,18 +5,17 @@
         <!-- BEGIN table-product -->
         <table class="table table-product table-hover">
             <thead>
-            <tr>
-                <th></th>
-                <th>Taglio</th>
-                <th>Incisione</th>
-                <th>Engrave</th>
-            </tr>
+                <tr>
+                    <th></th>
+                    <th>Taglio</th>
+                    <th>Incisione</th>
+                    <th>Engrave</th>
+                </tr>
             </thead>
 
-            <div>
+            <tbody>
 
             <!-- ORGANICI -->
-            <div>
                 <tr class="success">
                     <td colspan="4" class="category field">Organici</td>
                 </tr>
@@ -76,11 +75,9 @@
                     <td class="with-img"><i class="fas fa-check-circle"></i></td>
                     <td class="with-img"><i class="fas fa-check-circle"></i></td>
                 </tr>
-            </div>
             <!-- END ORGANICI -->
 
             <!-- PLASTICHE -->
-            <div>
                 <tr class="success">
                     <td colspan="4" class="category field">Plastiche</td>
                 </tr>
@@ -198,11 +195,9 @@
                     <td class="with-img"><i class="fas fa-check-circle"></i></td>
                     <td class="with-img"><i class="fas fa-check-circle"></i></td>
                 </tr>
-            </div>
             <!-- END PLASTICHE -->
 
             <!-- METALLI -->
-            <div>
                 <tr class="success">
                     <td colspan="4" class="category field">Metalli</td>
                 </tr>
@@ -219,7 +214,7 @@
                     <td class="with-img"><i class="fas fa-times-circle"></i></td>
                     <td class="with-img" data-toggle="tooltip" data-trigger="hover"
                         data-title="Attenzione! La lavorazione dell'alluminio anodizzato rimuove solo l'anodizzazione!"
-                        data-placement="left"><i class="fas fa-check-circle"></i></td>
+                        data-placement="left"><i class="fas fa-exclamation-triangle"></i></td>
                     <td class="with-img"><i class="fas fa-times-circle"></i></td>
                 </tr>
 
@@ -243,7 +238,7 @@
                     <td class="with-img"><i class="fas fa-times-circle"></i></td>
                     <td class="with-img" data-toggle="tooltip" data-trigger="hover"
                         data-title="Attenzione! La lavorazione sui metalli verniciati rimuove solo la vernice!"
-                        data-placement="left"><i class="fas fa-check-circle"></i></td>
+                        data-placement="left"><i class="fas fa-exclamation-triangle"></i></td>
                 </tr>
 
                 <tr>
@@ -266,7 +261,6 @@
                     <td class="with-img"><i class="fas fa-times-circle"></i></td>
                     <td class="with-img"><i class="fas fa-times-circle"></i></td>
                 </tr>
-            </div>
             <!-- END METALLI -->
 
             </tbody>

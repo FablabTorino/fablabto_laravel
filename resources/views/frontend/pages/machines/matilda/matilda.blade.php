@@ -44,8 +44,8 @@
 
                         <!-- BEGIN STATO -->
                         <div class="product-warranty">
-                            <!--div class="pull-right btn btn-lime btn-xs ">Operativa</div-->
-                            <div class="pull-right btn btn-red btn-xs ">In manutenzione</div>
+                            <div class="pull-right btn btn-lime btn-xs ">Operativa</div>
+                            <!--div class="pull-right btn btn-red btn-xs ">In manutenzione</div-->
                             <div><b>Stato:</b></div>
                         </div>
                         <!-- END STATO -->
@@ -85,15 +85,6 @@
                             </div>
                             <div><b>Link utili:</b></div>
                         </div>
-                        <!--
-                        <div class="product-social text-center">
-                            <ul>
-                                <li><a href="http://www.leetro.com/english/down/productcatalog2015/Manual/MPC6585/Software%20Manual/MPC6585%20Software%20LaserCut61%20Manual%20V1.1.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="top" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
-                                <li><a href="http://www.leetro.com/english/down/productcatalog2015/SoftwareDriver/MPC6585/LaserCut61%20(MPC6585)%20Installer.rar" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Software" data-placement="top" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
-                                <li><a href="http://www.leetro.com/english/sale/1-3.html" class="link" data-toggle="tooltip" data-trigger="hover" data-title="Sito Ufficiale" data-placement="top" data-original-title="" title=""><i class="fas fa-globe"></i></a></li>
-                            </ul>
-                        </div>
-                        -->
                         <!-- END MATERIALE UTILE -->
 
                         <!-- BEGIN PREZZO -->
@@ -138,8 +129,8 @@
                     <!-- BEGIN #product-tab -->
                     <ul id="product-tab" class="nav nav-tabs">
                         <li class="nav-item"><a class="nav-link active" href="#product-materials" data-toggle="tab">Materiali</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#product-info" data-toggle="tab">Pennini</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#product-reviews" data-toggle="tab">F.A.Q.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#product-settings" data-toggle="tab">Pennini</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#product-faq" data-toggle="tab">F.A.Q.</a></li>
                     </ul>
                     <!-- END #product-tab -->
 
@@ -148,9 +139,9 @@
 
                         @include('frontend.pages.machines.matilda._tab-materials')
 
-                        @include('frontend.pages.machines.matilda._tab-info')
+                        @include('frontend.pages.machines.matilda._tab-settings')
 
-                        @include('frontend.pages.machines.matilda._tab-review')
+                        @include('frontend.pages.machines.matilda._tab-faq')
 
 
                     </div>
