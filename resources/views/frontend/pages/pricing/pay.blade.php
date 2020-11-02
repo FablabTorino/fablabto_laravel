@@ -203,7 +203,7 @@
            generateQr();
 
             var canvas2 = document.getElementById('qr_canvas_2');
-            QRCode.toCanvas(canvas2, 'https://satispay.com/download/qrcode/S6Y-SHP-10AC9628-F752-4DE2-8485-6072DA83139B', { version: 9 }, function (error) {
+            QRCode.toCanvas(canvas2, 'S6Y-SHP--10AC9628-F752-4DE2-8485-6072DA83139B', { version: 9 }, function (error) {
                 if (error)
                     console.error(error)
             });
