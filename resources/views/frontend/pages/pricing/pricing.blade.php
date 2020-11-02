@@ -50,6 +50,8 @@
             dell'anno di iscrizione.</span><br />
                 <br />
                 Se hai letto le <a href="faq">FAQ</a>, <a href="files/StatutoFablab.pdf">lo statuto</a> e <a href="#">il regolamento</a>,  sei pronto per partire! Scegli la tessera che fa per te e diventa un fablabber!
+            <div class="quote">
+                <br/>Ti sei gi&agrave; iscritto ma devi completare il pagamento? Allora clicca <a href="pay">QUI</a>!</div>
             </div>
 
             <!-- begin #memberships -->
