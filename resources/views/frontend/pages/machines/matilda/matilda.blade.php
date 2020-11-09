@@ -78,9 +78,10 @@
                         <div class="product-warranty">
                             <div class="pull-right product-social">
                                 <ul>
-                                    <li><a href="http://www.leetro.com/english/down/productcatalog2015/Manual/MPC6585/Software%20Manual/MPC6585%20Software%20LaserCut61%20Manual%20V1.1.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
-                                    <li><a href="http://www.leetro.com/english/down/productcatalog2015/SoftwareDriver/MPC6585/LaserCut61%20(MPC6585)%20Installer.rar" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Software" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
-                                    <li><a href="http://www.leetro.com/english/sale/1-3.html" class="link" data-toggle="tooltip" data-trigger="hover" data-title="Sito Ufficiale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-globe"></i></a></li>
+                                    <li><a href="/files/matilda/MPC6585-HW-Manual-V1.4.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale Controller" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
+                                    <li><a href="/files/matilda/Workline-Complete-Manual.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale Completo" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
+                                    <li><a href="/files/matilda/LaserCut61.zip" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Software" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
+                                    <li><a href="https://www.worklinestore.com/-/plotter-laser-co2-1300x900mm-wl1390" class="link" data-toggle="tooltip" data-trigger="hover" data-title="Sito Ufficiale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-globe"></i></a></li>
                                 </ul>
                             </div>
                             <div><b>Link utili:</b></div>
