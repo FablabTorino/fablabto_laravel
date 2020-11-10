@@ -27,11 +27,11 @@ Route::get('/newsletter', function () {return view('frontend.pages.events.newsle
 Route::get('/pay', function () {return view('frontend.pages.pricing.pay');});
 
 // Machines and detailed pages
-Route::get('/3dprint/creality', function () {return view('frontend.pages.machines.under_constr');});
+Route::get('/3dprint/creality', function () {return view('frontend.pages.machines.creality.creality');});
 Route::get('/3dprint/kossel', function () {return view('frontend.pages.machines.under_constr');});
 
 Route::get('/laser/matilda', function () {return view('frontend.pages.machines.matilda.matilda');});
-Route::get('/laser/eureka', function () {return view('frontend.pages.machines.under_constr');});
+Route::get('/laser/eureka', function () {return view('frontend.pages.machines.eureka.eureka');});
 
 Route::get('/cnc/fresone', function () {return view('frontend.pages.machines.under_constr');});
 Route::get('/cnc/roland', function () {return view('frontend.pages.machines.under_constr');});

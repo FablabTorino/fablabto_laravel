@@ -36,7 +36,7 @@
                         <div class="dark-overlay promotion promotion-lg">
                             <div
                                 class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
-                                <img src="images/machines/eureka.png" alt="">
+                                <img src="images/machines/eureka/eureka.png" alt="">
                             </div>
                             <div class=" promotion-caption promotion-caption-inverse">
                                 <h4 class="promotion-title">Eureka</h4>

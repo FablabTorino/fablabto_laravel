@@ -9,7 +9,7 @@
                 <div class="col-md-6">
                     <div class="dark-overlay promotion promotion-lg">
                         <div class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
-                            <img src="images/machines/creality.png" alt="Creality">
+                            <img src="images/machines/creality/creality.png" alt="Creality">
                         </div>
                         <div class=" promotion-caption promotion-caption-inverse">
                             <h4 class="promotion-title">Creality CR-10 S5</h4>
@@ -30,7 +30,7 @@
                 <div class="col-md-6">
                     <div class="dark-overlay promotion promotion-lg">
                         <div class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
-                            <img src="images/machines/kossel.png" alt="Kossel">
+                            <img src="images/machines/kossel/kossel.png" alt="Kossel">
                         </div>
                         <div class=" promotion-caption promotion-caption-inverse">
                             <h4 class="promotion-title">Kossel</h4>

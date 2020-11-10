@@ -13,7 +13,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 
             <div class="modal-body">
-                @include('frontend.pages._covid')
+                @include('frontend.pages._covid_stop')
             </div>
         </div>
     </div>
