@@ -9,12 +9,12 @@
 
 @extends('layouts.frontend')
 
-@section('title', 'Fablab Torino | Iscriviti')
+@section('title', 'Fablab Torino | Donazioni')
 
 @section('content')
 
     <!-- Title section for pricing page -->
-    <div id="pricing" class="content bg-black-darker has-bg extraPageTitle" data-scrollview="true">
+    <div id="donation" class="content bg-black-darker has-bg extraPageTitle" data-scrollview="true">
         <!-- begin content-bg -->
         <div class="content-bg" style="background-image: url(/images/bg/bg-membership.jpg)"
              data-paroller-factor="0.5"
@@ -26,7 +26,7 @@
         <div class="container" data-animation="true" data-animation-type="fadeInLeft">
             <!-- begin title -->
             <h2 class="content-title">
-                Le Nostre Tessere
+                Donazioni
             </h2>
             <!-- end title -->
         </div>
@@ -34,11 +34,11 @@
     </div>
     <!-- end Title section -->
 
-    <div id="pricing" class="content extraPageContentLight" data-scrollview="true">
+    <div id="donation" class="content extraPageContentLight" data-scrollview="true">
         <!-- begin container -->
         <div class="container">
             <div class="quote">
-                Cos&igrave; vuoi essere dei nostri? Grande!</div>
+                Vuoi sostenere il Fablab con una donazione? Ottimo!</div>
             <div class="content-desc">
                 La tessera dell'Associazione Fablab Torino consente a tutti i soci di accedere al Fablab negli <a href="index.html#contact">
                     orari di apertura</a>, frequentare gratuitamente i corsi base <a href="helloworld">Hello World</a> e
@@ -52,9 +52,6 @@
                 Se hai letto le <a href="faq">FAQ</a> e <a href="files/StatutoFablab.pdf">lo statuto</a>,  sei pronto per partire! Scegli la tessera che fa per te e diventa un fablabber!
             </div>
 
-            <!-- begin #memberships -->
-            @include('frontend.pages.pricing._memberships')
-            <!-- end #memberships -->
 
         </div>
         <!-- end container -->

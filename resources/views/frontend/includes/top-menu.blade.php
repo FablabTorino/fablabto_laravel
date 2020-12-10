@@ -34,6 +34,16 @@
     <li class="nav-item"><a class="nav-link" href="/newsletter" data-target="#news" data-click="scroll-to-target">NEWS</a></li>
 
     <li class="nav-item"><a class="nav-link" href="/pricing" data-target="#pricing" data-click="scroll-to-target">ISCRIVITI</a></li>
+
+    <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown">GIFT ! <b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-left animated fadeInDown">
+            <a class="dropdown-item" href="https://anp.winddoc.com/short/35t/" data-target="#donation">Fai una donazione</a>
+            <a class="dropdown-item" href="https://anp.winddoc.com/short/365/" data-target="#giftcard">Regala la tessera</a>
+        </div>
+    </li>
+
+
     <li class="nav-item"><a class="nav-link" href="/index.html#contact" data-target="#contact" data-click="scroll-to-target">CONTATTI</a></li>
     <li class="nav-item"><a class="nav-link" href="/faq" data-target="#faq" data-click="scroll-to-target" >FAQ</a></li>
 

@@ -7,6 +7,9 @@
         elseif  ($month >= 07) $price_percentage = 40;
         elseif  ($month >= 04) $price_percentage = 20;
 
+        // Override to remove discount percentage
+        $price_percentage = 0;
+
         $ribbon = '<div class="ribbon"><span>- ' . $price_percentage .'% !</span></div>';
         if($price_percentage == 0) $ribbon = "";
         @endphp
@@ -34,7 +37,7 @@
                             <li>Frequentare tutte le attività del FablabTO</li>
                         </ul>
                         <div class="footer">
-                            <a href="http://bit.ly/fabToIscrizione18" class="btn btn-inverse btn-block">Io! Sono uno studente! OK!</a>
+                            <a href="pay" class="btn btn-inverse btn-block">Io! Sono uno studente! OK!</a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +65,7 @@
                             <li>Frequentare tutte le attività del FablabTO</li>
                         </ul>
                         <div class="footer">
-                            <a href="http://bit.ly/fabToIscrizione18" class="btn btn-inverse btn-block">E vada per una Base! Mi iscrivo!</a>
+                            <a href="pay" class="btn btn-inverse btn-block">E vada per una Base! Mi iscrivo!</a>
                         </div>
                     </div>
                 </div>
@@ -86,13 +89,11 @@
                             <li>Tutto quello elencato in "Tessera Base"</li>
                             <li>Accesso Laboratorio 24/7</li>
                             <li>Stoccaggio Materiali produttivi</li>
-                            <li>Utilizzo macchinari in orari extra-fablab <br />
-                                [vedi <a href="#">regolamento</a>]</li>
-                            <!--li>Sostegno attività Go-to-Market (Tindie, etc) e produzioni piccole serie da parte di Officine</li-->
+                            <li>Utilizzo macchinari in orari extra-fablab</li>
                             <li>Pensata per piccole partite IVA che hanno necessità di produzioni continue</li>
                         </ul>
                         <div class="footer">
-                            <a href="http://bit.ly/fabToIscrizione18" class="btn btn-theme btn-block">Go PRO GO!</a>
+                            <a href="pay" class="btn btn-theme btn-block">Go PRO GO!</a>
                         </div>
                     </div>
                 </div>
