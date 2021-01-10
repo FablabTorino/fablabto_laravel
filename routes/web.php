@@ -27,7 +27,7 @@ Route::get('/helloworld', function () {return view('frontend.pages.events.hellow
 Route::get('/communities', function () {return view('frontend.pages.communities.communities');});
 Route::get('/newsletter', function () {return view('frontend.pages.events.newsletter');});
 Route::get('/pay', function () { return redirect('https://anp.winddoc.com/short/2xs/');});
-//Route::get('/pay', function () { return view('frontend.pages.pricing.signup');});
+Route::get('/signup', function () { return view('frontend.pages.pricing.signup');});
 
 // Machines and detailed pages
 Route::get('/3dprint/creality', function () {return view('frontend.pages.machines.creality.creality');});
