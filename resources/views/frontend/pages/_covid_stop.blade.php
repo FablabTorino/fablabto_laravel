@@ -1,23 +1,43 @@
 <div class="container simple_info">
     <h2 class="content-title text-center text-danger" data-animation="true" data-animation-type="fadeInRight">
-        Chiusura temporanea in periodo Covid</h2>
+        CONDIZIONI PER L'APERTURA E L’UTILIZZO DEL FABLAB IN PERIODO COVID</h2>
 
     <p class="row">
         <p class="col-md-12">
 
-            <p>Cari associati e amici del Fablab Torino,
-                vi comunichiamo che, come stabilito dal DCPM attualmente in vigore, il Fablab Torino &egrave; attualmente
-                chiuso.</p>
+            <p><strong class="text-danger">QUANDO RIAPRIRA' IL FABLAB?</strong><br>
+            <p>Fino a quando rester&agrave; attiva l'attuale suddivisione in Aree per colore, le aperture seguiranno
+                lo schema seguente:<br/></p>
+                <ul>
+                    <li>Piemonte in Area Rossa o Arancione: il Fablab resterà CHIUSO</li>
+                    <li>Piemonte in Area Gialla: il Fablab sar&agrave; utilizzabile dai soci tesserati nei consueti orari di
+                        apertura, previa prenotazione e senza superare la capienza massima di 15 persone</li>
+                </ul>
 
-            <p>Tutte le attivit&agrave; aperte al pubblico e agli associati sono sospese fino a data da destinarsi.</p>
+            <p>Per prenotare &egrave; necessario:<br/></p>
+                <ul>
+                    <li>Controllare le disponibilit&agrave; sul <a href="http://bit.ly/calendarioprenotazioni_fabto">Calendario Prenotazioni</a></li>
+                    <li>Compilare il <a href="http://bit.ly/formprenotazione_fabto">Form di Prenotazione</a></li>
+                </ul>
 
-            <p>I nostri corsi non si fermano, ma riprendono gli appuntamenti con la formazione online: continua a
-                seguirci per scoprire quando e come partecipare!</p>
+            <p>Queste regole sono valide solo ed esclusivamente per i soci tesserati.</p>
 
-            <p>Siamo certi che il lavoro fatto fino a ora per attrezzare gli spazi del lab e normarne l'utilizzo si
-                riveler&grave; indispensabile in futuro, quando potremo riaprirvi le nostre porte in totale sicurezza.</p>
-            <p>
-                Per ora vi salutiamo e aspettiamo fiduciosi!</p>
+            <p><strong class="text-danger">E' POSSIBILE PARTECIPARE ALL'OPEN DAY?</strong><br>
+                Per i non tesserati, gli Open Day riprenderanno dalla settimana del 18/01, come sempre al mercoled&igrave;
+               dalle 19.00 alle 20.00 e solo su prenotazione inviando una mail a
+                <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a> </p>
+
+            <p>Per ovvie ragioni, ci &egrave; possibile ospitare gli Open Day solo nei mercoled&igrave; in cui il Piemonte
+                &egrave; Area Gialla. Se nel giorno prenotato la regione dovesse passare ad Area Arancione o Rossa, il
+                laboratorio rester&agrave; chiuso e le prenotazioni verranno automaticamente considerate nulle.</p>
+
+            <p><strong class="text-danger">QUANDO RIPRENDERANNO I WORKSHOP?</strong><br>
+                La formazione in presenza &egrave; sospesa fino a data da destinarsi in base all'evoluzione della situazione
+                sanitaria.</p>
+            <p>La formazione online riprender&egrave; nel mese di febbraio con i corsi gratuiti Hello World e, da quest'anno,
+                verr&agrave; resa disponibile esclusivamente per i soci tesserati.</p>
+            <p>Per conoscere le date dei prossimi workshop assicurati di seguirci su <a href="https://www.facebook.com/fablabtorino">Facebook</a>
+                e di essere iscritto alla nostra <a href="https://fablabtorino.org/index.html#contact">Newsletter</a></p>
 
         </p>
     </p>
