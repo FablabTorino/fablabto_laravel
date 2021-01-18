@@ -6,7 +6,7 @@
         <p class="col-md-12">
 
             <p><strong class="text-danger">QUANDO RIAPRIRA' IL FABLAB?</strong><br>
-            <p>Fino a quando rester&agrave; attiva l'attuale suddivisione in Aree per colore, le aperture seguiranno
+                Fino a quando rester&agrave; attiva l'attuale suddivisione in Aree per colore, le aperture seguiranno
                 lo schema seguente:<br/></p>
                 <ul>
                     <li>Piemonte in Area Rossa o Arancione: il Fablab resterà CHIUSO</li>
