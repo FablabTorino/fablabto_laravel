@@ -16,7 +16,7 @@
                             <div class="promotion-price">
                                 <small><i class="fas fa-ruler fa-fw"></i></small> 120 x 200 cm <br/>
                                 <small><i class="fas fa-wrench fa-fw"></i></small> pinza ER20 <br/>
-                                <small><i class="fas fa-euro-sign fa-fw"></i></small> 5 euro/ora
+                                <small><i class="fas fa-euro-sign fa-fw"></i></small> 60 euro/ora
                             </div>
                             <p class="promotion-desc">Il gigante del Fablab!<br>
                                 Potente e massiccia, nessun lavoro &egrave; troppo pesante per lei!</p>
@@ -37,7 +37,7 @@
                             <div class="promotion-price">
                                 <small><i class="fas fa-ruler fa-fw"></i></small> 30 x 30 cm <br/>
                                 <small><i class="fas fa-wrench fa-fw"></i></small> pinza 3/4/6 mm <br/>
-                                <small><i class="fas fa-euro-sign fa-fw"></i></small> 5 euro/ora
+                                <small><i class="fas fa-euro-sign fa-fw"></i></small> 60 euro/ora
                             </div>
                             <p class="promotion-desc">La pi&ugrave; precisa al Fablab!<br>
                                 Sembra un micro-onde, ma anche senza esserlo sforna dei veri capolavori!</p>

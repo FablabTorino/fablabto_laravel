@@ -8,7 +8,7 @@
         elseif  ($month >= 04) $price_percentage = 20;
 
         // Override to remove discount percentage
-        $price_percentage = 0;
+        //$price_percentage = 0;
 
         $ribbon = '<div class="ribbon"><span>- ' . $price_percentage .'% !</span></div>';
         if($price_percentage == 0) $ribbon = "";
