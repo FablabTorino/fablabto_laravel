@@ -24,9 +24,10 @@
     <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown">CORSI/EVENTI <b class="caret"></b></a>
         <div class="dropdown-menu dropdown-menu-left animated fadeInDown">
+            <a class="dropdown-item" href="https://www.notion.so/fablabtorino/Humanizing-Technology-8c323fab226b40c49d72a65868b9a4a6" data-target="#workshop">Workshop</a>
             <a class="dropdown-item" href="/openday" data-target="#openday">Open Day</a>
             <a class="dropdown-item" href="/helloworld" data-target="#helloworld">Hello World</a>
-            <a class="dropdown-item" href="/communities" data-target="#communities">Community</a>
+            <a class="dropdown-item" href="/communities" data-target="#communities">Communities</a>
             <!--a class="dropdown-item" href="newsletter">Newsletter</a-->
         </div>
     </li>
