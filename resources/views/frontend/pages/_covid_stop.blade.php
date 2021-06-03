@@ -37,7 +37,7 @@
             <p>La formazione online riprender&egrave; nel mese di febbraio con i corsi gratuiti Hello World e, da quest'anno,
                 verr&agrave; resa disponibile esclusivamente per i soci tesserati.</p>
             <p>Per conoscere le date dei prossimi workshop assicurati di seguirci su <a href="https://www.facebook.com/fablabtorino">Facebook</a>
-                e di essere iscritto alla nostra <a href="https://fablabtorino.org/index.html#contact">Newsletter</a></p>
+                e di essere iscritto alla nostra <a href="index.html#contact" onclick="$('#modal-covid').modal('hide')" >Newsletter</a></p>
 
         </p>
     </p>

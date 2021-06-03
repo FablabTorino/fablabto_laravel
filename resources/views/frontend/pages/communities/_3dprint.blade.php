@@ -7,13 +7,9 @@
             <img src="images/cover/cover-3dprint.jpg" alt="">
         </div>
         <div class="account-sidebar-content">
-                <img src="images/communities/3dprint.jpg" alt="" class="communities_logo">
-
+            <img src="images/communities/3dprint.jpg" alt="" class="communities_logo">
             <p>
-
             </p>
-
-
         </div>
     </div>
     <!-- END account-sidebar -->
@@ -35,11 +31,13 @@
             <!-- END col-8 -->
             <!-- BEGIN col-4 -->
             <div class="col-md-4">
+                <!--
                 <h4><i class="far fa-id-card fa-fw"></i> Referenti</h4>
                 <ul>
                     <li>Pinco Pallino</li>
                     <li>Pippo Pluto</li>
                 </ul>
+                -->
 
                 <h4><i class="fas fa-share-alt fa-fw"></i> Contatti</h4>
                 <div class="container">

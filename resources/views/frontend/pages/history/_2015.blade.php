@@ -17,7 +17,7 @@
         </div>
         <div class="timeline-content">
             <p>
-                Iniziano le prime sperimentazioni del progetto <a href="https://github.com/Digifabturing">DigifabTURINg</a>
+                Iniziano le prime sperimentazioni del progetto <a href="https://digifabturing.tumblr.com/">DigifabTURINg</a>
                 con il braccio robotico di <a href="https://www.comau.com/it">Comau Robotics</a>, in collaborazione tra
                 <a href="http://www.co-de-it.com/">Co-de-iT</a>, Fablab Torino e Officine Arduino. Spaziando fra
                 architettura e bio-materiali, l'utilizzo non convenzionale del braccio robotico porta a risultati di

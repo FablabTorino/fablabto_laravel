@@ -32,8 +32,8 @@
                 <div id="collapseTwo" class="collapse" data-parent="#accordion" style="">
                     <div class="card-body">
                         Sei il benvenuto! <br />
-                        Vieni a trovarci durante i nostri Open Day, ogni mercoledì dalle 19.00 alle 20.00. Basta compilare il form
-                        che trovi <a href="#openday">qui.</a><br />
+                        Vieni a trovarci durante i nostri Open Day, ogni mercoledì dalle 19.00 alle 20.00. Basta inviare
+                        una email di prenotazione a <a href="mailto:info@fablabtorino.org">info@fablabtorino.orgv</a><br />
                         Risponderemo alle tue domande e potrai decidere se vuoi iscriverti al FablabTo!
                     </div>
                 </div>
@@ -155,9 +155,8 @@
                 <div id="collapseNine" class="collapse" data-parent="#accordion" style="">
                     <div class="card-body">
                         Certo! <br />
-                        Prima di tutto controlla sulla pagina <a href="#areas">Aree</a> che lo spazio faccia al caso tuo.
-                        Se c'&egrave; tutto ci&ograve; di cui hai bisogno, scrivi a <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a>
-                        e raccontaci di cosa si tratta, ti risponderemo al più presto!
+                        Scrivici a <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a> e raccontaci di cosa
+                        si tratta e quali sono le tue esigenze. Ti risponderemo al più presto!
                     </div>
                 </div>
             </div>

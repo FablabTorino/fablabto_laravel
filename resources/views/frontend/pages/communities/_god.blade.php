@@ -2,10 +2,10 @@
     <!-- BEGIN account-sidebar -->
     <div class="account-sidebar">
         <div class="account-sidebar-cover">
-            <img src="images/cover/cover-robot.jpg" alt="">
+            <img src="images/cover/cover-god.jpg" alt="">
         </div>
         <div class="account-sidebar-content">
-            <img src="images/communities/robotside.png" alt="" class="communities_logo">
+            <img src="images/communities/god.png" alt="" class="communities_logo">
         </div>
     </div>
     <!-- END account-sidebar -->
@@ -17,13 +17,13 @@
             <div class="col-md-8">
                 <h4><i class="fas fa-info-circle fa-fw"></i> Info</h4>
                 <p>
-                    La community pi&ugrave; giovane del FablabTO, ma per tanti &egrave; gi&agrave; un appuntamento fisso
-                    per
-                    parlare e sperimentare con la robotica ogni settimana.
+                    Game of Drones &egrave; una community che si dedica al mondo dei droni sviluppando idee e cercando
+                    di presentare progetti sempre innovativi. Il team &egrave; composto da membri che sviluppano e
+                    pilotano droni da corsa, ma non solo!
                 </p>
 
                 <h4><i class="far fa-calendar-alt fa-fw"></i> Orari</h4>
-                <p> tutti i venerd&igrave; sera dalle 19.30</p>
+                <p> da definire</p>
             </div>
             <!-- END col-8 -->
             <!-- BEGIN col-4 -->
@@ -39,8 +39,7 @@
                 <h4><i class="fas fa-share-alt fa-fw"></i> Contatti</h4>
                 <div class="container">
                     <p class="communities-list">
-                        <a href="https://www.facebook.com/groups/502831733527385/"><i
-                                class="fab fa-facebook fa-lg fa-fw"></i></a>
+                        <a href="https://gameofdrone.it/ "><i class="fas fa-link fa-lg fa-fw"></i></a>
                     </p>
                 </div>
             </div>

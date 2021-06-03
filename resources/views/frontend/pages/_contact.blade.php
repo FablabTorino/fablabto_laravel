@@ -36,9 +36,11 @@
                 <div class="spaced-div">
                     <h5>Seguici sui social</h5>
                     <p class="social-media-list-contact">
-                        <a href="https://www.facebook.com/fablabtorino"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
-                        <a href="https://www.instagram.com/fablabtorino"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                        <a href="https://github.com/FablabTorino"><i class="fab fa-github fa-lg fa-fw"></i></a>
+                        <a href="https://www.facebook.com/fablabtorino" title="Facebook"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        <a href="https://www.instagram.com/fablabtorino" title="Instagram"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        <a href="https://github.com/FablabTorino" title="GitHub"><i class="fab fa-github-alt fa-lg fa-fw"></i></a>
+                        <a href="https://t.me/fablabtorino" title="Telegram"><i class="fab fa-telegram-plane fa-lg fa-fw"></i></a>
+                        <a href="https://www.linkedin.com/company/fablab-torino" title="LinkedIn"><i class="fab fa-linkedin-in fa-lg fa-fw"></i></a>
                     </p>
                 </div>
 

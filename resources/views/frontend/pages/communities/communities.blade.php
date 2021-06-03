@@ -54,9 +54,7 @@
             </div>
 
             <div class="col-md-12">
-                    <!-- begin AUG -->
-                    @include('frontend.pages.communities._aug')
-                    <!-- end AUG -->
+
 
                     <!-- begin ROBOTSIDE -->
                     @include('frontend.pages.communities._robotside')
@@ -73,6 +71,14 @@
                     <!-- begin CODING MEETUP -->
                     @include('frontend.pages.communities._codingmeetup')
                     <!-- end CODING MEETUP -->
+
+                    <!-- begin GAME OF DRONES -->
+                    @include('frontend.pages.communities._god')
+                    <!-- end GAME OF DRONES -->
+
+                    <!-- begin AUG -->
+                    @include('frontend.pages.communities._aug')
+                    <!-- end AUG -->
             </div>
 
         </div>

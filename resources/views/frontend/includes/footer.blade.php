@@ -85,6 +85,8 @@
                 <li><a href="https://www.facebook.com/fablabtorino"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/fablabtorino"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://github.com/FablabTorino"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://t.me/fablabtorino" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/fablab-torino" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>
         <!-- end container -->

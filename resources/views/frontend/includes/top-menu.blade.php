@@ -12,7 +12,7 @@
         <div class="dropdown-menu dropdown-menu-left animated fadeInDown">
             <a class="dropdown-item" href="/association" data-target="#association">Associazione</a>
             <a class="dropdown-item" href="/history" data-target="#history">Storia del Fablab</a>
-            <a class="dropdown-item" href="/projects" data-target="#projects">Progetti</a>
+            <!--a class="dropdown-item" href="/projects" data-target="#projects">Progetti</a -->
             <!--a class="dropdown-item" href="/areas" data-target="#areas">Aree</a -->
         </div>
     </li>
@@ -28,7 +28,6 @@
             <a class="dropdown-item" href="/openday" data-target="#openday">Open Day</a>
             <a class="dropdown-item" href="/helloworld" data-target="#helloworld">Hello World</a>
             <a class="dropdown-item" href="/communities" data-target="#communities">Communities</a>
-            <!--a class="dropdown-item" href="newsletter">Newsletter</a-->
         </div>
     </li>
 
@@ -47,5 +46,7 @@
 
     <li class="nav-item"><a class="nav-link" href="/index.html#contact" data-target="#contact" data-click="scroll-to-target">CONTATTI</a></li>
     <li class="nav-item"><a class="nav-link" href="/faq" data-target="#faq" data-click="scroll-to-target" >FAQ</a></li>
+
+    <li class="nav-item"><a class="nav-link" href="https://soci.winddoc.com/login.php" data-click="scroll-to-target">PORTALE SOCI <i class="fas fa-user fa-lg fa-fw"></i></a></li>
 
 </ul>
