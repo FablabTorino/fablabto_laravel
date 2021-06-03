@@ -33,7 +33,7 @@
                     <div class="card-body">
                         Sei il benvenuto! <br />
                         Vieni a trovarci durante i nostri Open Day, ogni mercoledì dalle 19.00 alle 20.00. Basta inviare
-                        una email di prenotazione a <a href="mailto:info@fablabtorino.org">info@fablabtorino.orgv</a><br />
+                        una email di prenotazione a <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a><br />
                         Risponderemo alle tue domande e potrai decidere se vuoi iscriverti al FablabTo!
                     </div>
                 </div>
