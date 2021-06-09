@@ -34,7 +34,7 @@
                 <div class="col-md-4 col-sm-12">
                     <!-- Regolamento -->
                     <div class="service">
-                        <a href="/rules">
+                        <!--a href="#" -->
                             <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="far fa-file-alt"></i></div>
                             <div class="info">
                                 <h4 class="title">Consulta il regolamento</h4>
@@ -44,7 +44,7 @@
                                     di leggerlo attentamente prima dell'iscrizione!
                                 </p>
                             </div>
-                        </a>
+                        <!-- /a -->
                     </div>
                     <!-- end Regolamento-->
 

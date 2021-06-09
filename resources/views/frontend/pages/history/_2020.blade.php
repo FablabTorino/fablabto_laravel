@@ -29,7 +29,7 @@
                 nelle loro case, ovunque si trovino.
             </p>
             <p class="m-t-20">
-                <img src="" alt="">
+                <img src="images/history/2020.jpg" alt="">
             </p>
         </div>
     </div>
