@@ -21,10 +21,6 @@
                 Per i non tesserati, gli Open Day sono come sempre al mercoledì (esclusi i festivi) dalle 19.00 alle 20.00,
                 su prenotazione inviando una mail a <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a> </p>
 
-            <p>Per ovvie ragioni, ci &egrave; possibile ospitare gli Open Day solo nei mercoled&igrave; in cui il Piemonte
-                &egrave; Area Gialla. Se nel giorno prenotato la regione dovesse passare ad Area Arancione o Rossa, il
-                laboratorio rester&agrave; chiuso e le prenotazioni verranno automaticamente considerate nulle.</p>
-
             <p><strong class="text-danger">AVETE IN PROGRAMMA WORKSHOP IN PRESENZA?</strong><br>
                 Da maggio la nostra offerta formativa è di nuovo in presenza negli spazi del Fablab,
                 nel pieno rispetto delle norme di sicurezza.</p>
