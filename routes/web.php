@@ -26,7 +26,13 @@ Route::get('/openday', function () {return view('frontend.pages.events.openday')
 Route::get('/helloworld', function () {return view('frontend.pages.events.helloworld');});
 Route::get('/communities', function () {return view('frontend.pages.communities.communities');});
 Route::get('/newsletter', function () {return view('frontend.pages.events.newsletter');});
-Route::get('/pay', function () { return redirect('https://anp.winddoc.com/short/2xs/');});
+Route::get('/pay', function () {
+    $month = date('m');
+    if      ($month >= 9) return redirect('https://anp.winddoc.com/short/3xm/');
+    elseif  ($month >= 5) return redirect('https://anp.winddoc.com/short/3xj/');
+    else                  return redirect('https://anp.winddoc.com/short/2xs/');
+
+});
 Route::get('/signup', function () { return view('frontend.pages.pricing.signup');});
 Route::get('/workshop', function () { return redirect('https://www.notion.so/fablabtorino/Humanizing-Technology-8c323fab226b40c49d72a65868b9a4a6');});
 

@@ -3,9 +3,9 @@
         @php
         $month = date('m');
         $price_percentage = 0;
-        if      ($month >= 10) $price_percentage = 60;
-        elseif  ($month >= 07) $price_percentage = 40;
-        elseif  ($month >= 04) $price_percentage = 20;
+        if      ($month >= 9) $price_percentage = 40;
+        elseif  ($month >= 5) $price_percentage = 20;
+
 
         // Override to remove discount percentage
         //$price_percentage = 0;
