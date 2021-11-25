@@ -42,8 +42,10 @@
                 con noi di persona? </br>
                 Passa a trovarci al nostro Open Day, <span class="text-highlight">ogni mercoledì dalle
                 19.00 alle 20.00</span>.<br/>
-                <strong class="text-danger"> Per partecipare all'Open Day è necessario inviare un'email di prenotazione
-                    a <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a></strong>
+                <strong class="text-danger"> Per partecipare all'Open Day &egrave;
+                    necessario prenotare il proprio turno (in inglese o italiano) al seguente link:
+                    <a href="https://www.eventbrite.it/e/214695679557">PRENOTA!</a>
+                </strong>
 
             </p>
 

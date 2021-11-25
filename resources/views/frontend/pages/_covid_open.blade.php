@@ -19,7 +19,7 @@
 
             <p><strong class="text-danger">E' POSSIBILE PARTECIPARE ALL'OPEN DAY?</strong><br>
                 Per i non tesserati, gli Open Day sono come sempre al mercoledì (esclusi i festivi) dalle 19.00 alle 20.00,
-                su prenotazione inviando una mail a <a href="mailto:info@fablabtorino.org">info@fablabtorino.org</a> </p>
+                prenotando il proprio turno (in inglese o italiano) a questo link: <a href="https://www.eventbrite.it/e/214695679557">PRENOTA!</a> </p>
 
             <p><strong class="text-danger">AVETE IN PROGRAMMA WORKSHOP IN PRESENZA?</strong><br>
                 Da maggio la nostra offerta formativa è di nuovo in presenza negli spazi del Fablab,
