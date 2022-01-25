@@ -108,7 +108,7 @@
                             <div class="price-figure">
                                 <span class="price-number" style="font-size: medium;">
                                     <p>
-                                    Politecnico: 30 &euro;<br/>
+                                    PoliTO: 30 &euro;<br/>
                                     IED: 40 &euro;<br/>
                                     </p>
                                 </span>
