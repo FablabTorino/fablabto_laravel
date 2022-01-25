@@ -33,6 +33,15 @@ Route::get('/pay', function () {
     else                  return redirect('https://anp.winddoc.com/short/2xs/');
 
 });
+Route::get('/renew', function () {
+    $month = date('m');
+    if      ($month >= 9) return redirect('https://anp.winddoc.com/short/49h/');
+    elseif  ($month >= 5) return redirect('https://anp.winddoc.com/short/49k/');
+    else                  return redirect('https://anp.winddoc.com/short/49j/');
+
+});
+Route::get('/affiliated', function () { return redirect('https://anp.winddoc.com/short/4bx/');});
+
 Route::get('/signup', function () { return view('frontend.pages.pricing.signup');});
 Route::get('/workshop', function () { return redirect('https://www.notion.so/fablabtorino/Humanizing-Technology-8c323fab226b40c49d72a65868b9a4a6');});
 
@@ -47,3 +56,6 @@ Route::get('/cnc/fresone', function () {return view('frontend.pages.machines.und
 Route::get('/cnc/roland', function () {return view('frontend.pages.machines.under_constr');});
 
 Route::get('/vinyl/camm', function () {return view('frontend.pages.machines.under_constr');});
+
+Route::get('/booking', function () {return redirect('https://bit.ly/formprenotazione_fabto');});
+

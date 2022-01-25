@@ -4,7 +4,12 @@
 
     <p class="row">
         <p class="col-md-12">
-
+            <p style="text-align: center;">
+                <strong class="text-danger" style="color: #00acac !important;">
+                ATTENZIONE! Per accedere al laboratorio e partecipare a tutte le attivit&agrave; <br/>&egrave; necessario
+                    essere in possesso di Green Pass Rafforzato e indossare una mascherina FFP2!
+                </strong>
+            </p>
             <p><strong class="text-danger">IL FABLAB È APERTO ?</strong><br>
                 Il laboratorio è aperto e utilizzabile dai soci tesserati nei consueti orari di apertura (lun. - ven. 16.00 - 20.00),
                 previa prenotazione e senza superare la capienza massima di 15 persone.
@@ -22,7 +27,7 @@
                 prenotando il proprio turno (in inglese o italiano) a questo link: <a href="https://www.eventbrite.it/e/214695679557">PRENOTA!</a> </p>
 
             <p><strong class="text-danger">AVETE IN PROGRAMMA WORKSHOP IN PRESENZA?</strong><br>
-                Da maggio la nostra offerta formativa è di nuovo in presenza negli spazi del Fablab,
+                La nostra offerta formativa è di nuovo in presenza negli spazi del Fablab,
                 nel pieno rispetto delle norme di sicurezza.</p>
             <p>Per conoscere le date dei prossimi workshop assicurati di seguirci su <a href="https://www.facebook.com/fablabtorino">Facebook</a>,
                 di essere iscritto alla nostra <a href="index.html#contact" onclick="$('#modal-covid').modal('hide')" >Newsletter</a> e

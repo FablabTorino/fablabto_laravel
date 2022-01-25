@@ -92,7 +92,7 @@
                             <div class="product-price">
                                 <div class="price">&euro; 5.00 / ora</div>
                             </div>
-                            <button class="btn btn-theme btn-lg" type="submit">PRENOTA</button>
+                            <a class="btn btn-theme btn-lg" type="submit" href="/booking">PRENOTA</a>
                         </div>
                         <!-- END PREZZO -->
                     </div>

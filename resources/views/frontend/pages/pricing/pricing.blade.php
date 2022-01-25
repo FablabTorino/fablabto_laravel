@@ -58,6 +58,24 @@
 
         </div>
         <!-- end container -->
+        <br/>
+        <br/>
+        <!-- begin container -->
+        <div class="container">
+            <div class="quote">
+                Sei gi&agrave; dei nostri? Ottimo!</div>
+            <div class="content-desc">
+                Se hai già la tessera dell'Associazione Fablab Torino, e vuoi rinnovare l'iscrizione per l'anno in corso, ti basta cliccare sul pulsante qui sotto
+                ed effettuare il pagamento!<br />
+
+                <span class="text-highlight">Il rinnovo della tessera include la copertura assicurativa ed &egrave; valido fino al 31 dicembre
+            dell'anno in cui viene eseguito.</span><br />
+                <br />
+                <a href="renew" class="btn btn-theme">RINNOVA!</a>
+            </div>
+
+        </div>
+        <!-- end container -->
     </div>
 
 @endsection
