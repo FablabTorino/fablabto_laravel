@@ -1,0 +1,151 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: shad0w
+ * Date: 09/07/2019
+ * Time: 00:04
+ */
+?>
+
+@extends('layouts.frontend')
+
+@section('title', 'Fablab Torino | Fresone')
+
+@section('content')
+
+    <!-- Title section for history page -->
+    <div id="fresone" class="content bg-black-darker has-bg extraPageTitle titleSmall" data-scrollview="true">
+        <!-- begin content-bg -->
+        <div class="content-bg" style="background-image: url(/images/bg/bg-generic.jpg)"
+             data-paroller-factor="0.5"
+             data-paroller-factor-md="0.01"
+             data-paroller-factor-xs="0.01">
+        </div>
+        <!-- end content-bg -->
+    </div>
+    <!-- end Title section -->
+
+    <div id="fresone" class="content extraPageContentGhost" data-scrollview="true">
+        <!-- begin container -->
+        <div class="container">
+
+            <!-- BEGIN product -->
+            <div class="product">
+                <!-- BEGIN product-detail -->
+                <div class="product-detail">
+
+                    <!-- BEGIN product-info -->
+                    <div class="product-info">
+                        <!-- BEGIN product-info-header -->
+                        <div class="product-info-header">
+                            <h1 class="product-title">Fresone</h1>
+                        </div>
+                        <!-- END product-info-header -->
+
+                        <!-- BEGIN STATO -->
+                        <div class="product-warranty">
+                            <div class="pull-right btn btn-lime btn-xs ">Operativa</div>
+                            <!--div class="pull-right btn btn-red btn-xs ">In manutenzione</div-->
+                            <div><b>Stato:</b></div>
+                        </div>
+                        <!-- END STATO -->
+
+                        <!-- BEGIN CARATTERISTICHE -->
+                        <ul class="product-info-list">
+                            <li><i class="fa fa-circle"></i> Area di lavoro: 1250 x 2030 cm</li>
+                        </ul>
+                        <!-- END CARATTERISTICHE -->
+
+                        <!-- BEGIN PREREQUISITI -->
+                        <div class="product-warranty">
+
+                            <div class="pull-right btn btn-theme btn-xs"
+                                 data-toggle="tooltip" data-trigger="hover"
+                                 data-title="Per poter utilizzare il macchinario in autonomia, &egrave; necessario aver
+                                            seguito il corso Hello World CNC! Visita la sezione 'Hello World' per conoscere
+                                            la data del prossimo incontro!"
+                                 data-placement="bottom" data-original-title="" title="">Hello World CNC</div>
+                            <div><b>Requisiti utilizzo:</b></div>
+                        </div>
+                        <!-- END PREREQUISITI -->
+
+                        <!-- BEGIN MATERIALE UTILE -->
+                        <div class="product-warranty">
+                            <div class="pull-right product-social">
+                                <ul>
+                                    <li><a href="/files/fresone/NVCNC_NCH02_EN.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
+                                </ul>
+                            </div>
+                            <div><b>Link utili:</b></div>
+                        </div>
+                        <!-- END MATERIALE UTILE -->
+
+                        <!-- BEGIN PREZZO -->
+                        <div class="product-purchase-container">
+                            <div class="product-price">
+                                <div class="price">&euro; 60.00 / ora</div>
+                                <div class="small">pacchetto 10h  -> sconto 5%</div>
+                                <div class="small">pacchetto 20h  -> sconto 10%</div>
+                                <div class="small">pacchetto 50h  -> sconto 15%</div>
+                                <div class="small">pacchetto 100h -> sconto 20%</div>
+                            </div>
+                            <a class="btn btn-theme btn-lg" type="submit" href="/booking">PRENOTA</a>
+                        </div>
+                        <!-- END PREZZO -->
+                    </div>
+                    <!-- END product-info -->
+
+                    <!-- BEGIN product-images -->
+                    <div class="product-image">
+                        <!-- BEGIN product-thumbnails -->
+                        <div class="product-thumbnail">
+                            <ul class="product-thumbnail-list">
+                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/fresone/fresone.png"><img src="/images/machines/fresone/fresone.png" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c1.jpg"><img src="/images/machines/creality/c1.jpg" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c2.jpg"><img src="/images/machines/creality/c2.jpg" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c3.jpg"><img src="/images/machines/creality/c3.jpg" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c4.jpg"><img src="/images/machines/creality/c4.jpg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <!-- END product-thumbnails -->
+
+                        <!-- BEGIN product-main-image -->
+                        <div class="product-main-image" data-id="main-image">
+                            <img src="/images/machines/fresone/fresone.png" alt="">
+                        </div>
+                        <!-- END product-main-image -->
+                    </div>
+                    <!-- END product-images -->
+
+
+                </div>
+                <!-- END product-detail -->
+
+                <!-- BEGIN product-tab -->
+                <div class="product-tab">
+
+                    <!--
+                    <ul id="product-tab" class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link active" href="#product-materials" data-toggle="tab">Materiali</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#product-profiles" data-toggle="tab">Profili</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#product-faq" data-toggle="tab">F.A.Q.</a></li>
+                    </ul> -->
+
+                    <div id="product-tab-content" class="tab-content">
+                        @include('frontend.pages.machines.creality._tab-materials')
+
+                        @include('frontend.pages.machines.creality._tab-profiles')
+
+                        @include('frontend.pages.machines.creality._tab-faq')
+                    </div>
+
+
+                </div>
+                <!-- END product-tab -->
+            </div>
+            <!-- END product -->
+        </div>
+        <!-- end container -->
+
+    </div>
+@endsection

@@ -9,7 +9,7 @@
                 <div class="col-md-6">
                     <div class="dark-overlay promotion promotion-lg ">
                         <div class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
-                            <img src="images/machines/fresone.png" alt="Fresone">
+                            <img src="images/machines/fresone/fresone.png" alt="Fresone">
                         </div>
                         <div class=" promotion-caption promotion-caption-inverse">
                             <h4 class="promotion-title">Fresone</h4>
@@ -30,14 +30,14 @@
                 <div class="col-md-6">
                     <div class="dark-overlay promotion promotion-lg">
                         <div class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
-                            <img src="images/machines/roland.png" alt="Roland">
+                            <img src="images/machines/roland/roland.png" alt="Roland">
                         </div>
                         <div class=" promotion-caption promotion-caption-inverse">
                             <h4 class="promotion-title">Roland</h4>
                             <div class="promotion-price">
                                 <small><i class="fas fa-ruler fa-fw"></i></small> 30 x 30 cm <br/>
                                 <small><i class="fas fa-wrench fa-fw"></i></small> pinza 3/4/6 mm <br/>
-                                <small><i class="fas fa-euro-sign fa-fw"></i></small> 60 euro/ora
+                                <small><i class="fas fa-euro-sign fa-fw"></i></small> 40 euro/ora
                             </div>
                             <p class="promotion-desc">La pi&ugrave; precisa al Fablab!<br>
                                 Sembra un micro-onde, ma anche senza esserlo sforna dei veri capolavori!</p>

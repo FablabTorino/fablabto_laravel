@@ -52,8 +52,8 @@ Route::get('/3dprint/kossel', function () {return view('frontend.pages.machines.
 Route::get('/laser/matilda', function () {return view('frontend.pages.machines.matilda.matilda');});
 Route::get('/laser/eureka', function () {return view('frontend.pages.machines.eureka.eureka');});
 
-Route::get('/cnc/fresone', function () {return view('frontend.pages.machines.under_constr');});
-Route::get('/cnc/roland', function () {return view('frontend.pages.machines.under_constr');});
+Route::get('/cnc/fresone', function () {return view('frontend.pages.machines.fresone.fresone');});
+Route::get('/cnc/roland', function () {return view('frontend.pages.machines.roland.roland');});
 
 Route::get('/vinyl/camm', function () {return view('frontend.pages.machines.under_constr');});
 
