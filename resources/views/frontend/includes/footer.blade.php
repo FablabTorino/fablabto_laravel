@@ -11,12 +11,7 @@
                     <img class="collab-logo" src="/images/brand/brand-ff.png"></a>
                 </div>
                 <!-- end column -->
-                <!-- begin column -->
-                <div class="col-md-2 col-sm-6">
-                    <a href="https://www.officine.cc/">
-                    <img class="collab-logo" src="/images/brand/brand-officine.png"></a>
-                </div>
-                <!-- end column -->
+
                 <!-- begin column -->
                 <div class="col-md-2 col-sm-6">
                     <a href="http://www.hackability.it/">
