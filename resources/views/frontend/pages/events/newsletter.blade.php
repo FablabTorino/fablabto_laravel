@@ -64,7 +64,7 @@
                     method: 'GET',
                     headers: {
                         Accept: 'application/json',
-                        'api-key': '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'
+                        'api-key': 'PUT_YOUR_KEY_HERE'
                     },
 
                     success: function(data) {
