@@ -57,6 +57,9 @@
 
 @push('scripts')
     <script>
+        @php
+            $api_key = env('SIB_API_KEY', '');
+        @endphp
         $(document).ready(function() {
             if ($('#latest_mail').length != 0) {
                 $.ajax({
@@ -64,7 +67,7 @@
                     method: 'GET',
                     headers: {
                         Accept: 'application/json',
-                        'api-key': 'PUT_YOUR_KEY_HERE'
+                        'api-key': '{{$api_key}}'
                     },
 
                     success: function(data) {
