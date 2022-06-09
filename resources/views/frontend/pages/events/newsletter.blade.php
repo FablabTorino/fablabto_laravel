@@ -70,7 +70,7 @@
                     success: function(data) {
                         console.log(data.campaigns[0].htmlContent);
                         var contents = data.campaigns[0].htmlContent;
-                        //contents = contents.replace(/<style type="text\/css">[^<]*<\/style>/m, '');
+                        contents = contents.replace(/height: 18px;/ig, '');
                         $('#latest_mail').empty().append(contents);
                         //$('#test1').attr("srcdoc", contents);
                     }
