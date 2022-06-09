@@ -48,6 +48,7 @@
                 ... caricamento...
             </p>
         </div>
+
         <!-- end container -->
 
     </div>
@@ -59,15 +60,19 @@
         $(document).ready(function() {
             if ($('#latest_mail').length != 0) {
                 $.ajax({
-                    url: 'https://cors-anywhere.herokuapp.com/https://us5.campaign-archive.com/feed?u=bbd5781f8c72a1885774d98c0&id=2ee26e2206',
+                    url: 'https://api.sendinblue.com/v3/emailCampaigns?limit=1&offset=0&sort=desc',
                     method: 'GET',
-                    beforeSend: function(xhr){
-                        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                    headers: {
+                        Accept: 'application/json',
+                        'api-key': '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'
                     },
+
                     success: function(data) {
-                        var contents = $(data).find('item').first().find('description').html();
-                        contents = contents.replace(/<style type="text\/css">[^<]*<\/style>/m, '');
+                        console.log(data.campaigns[0].htmlContent);
+                        var contents = data.campaigns[0].htmlContent;
+                        //contents = contents.replace(/<style type="text\/css">[^<]*<\/style>/m, '');
                         $('#latest_mail').empty().append(contents);
+                        //$('#test1').attr("srcdoc", contents);
                     }
                 });
             }
