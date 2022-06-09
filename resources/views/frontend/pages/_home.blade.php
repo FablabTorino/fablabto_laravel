@@ -101,11 +101,9 @@
                     <h1 class="content-title">Workshop, eventi, incontri!</h1>
                     <h3>Al Fablab Torino facciamo un sacco di cose. Non perdertene nemmeno una</h3>
                     <form class="contact-form"
-                          action="https://fablabtorino.us5.list-manage.com/subscribe/post"
+                          action="https://73abe7fd.sibforms.com/serve/MUIEAFo6wDGMGRJUul9KzxzwVILFjyklDUvX5SzWEMhTKJeu2-UrOWMRpXkWVenprLabfKubiOvbpiZm0TkqxliisQCy997oJ-i3yjTVtnlZQ8DM2eaohCWlO-wNNT20q5d4mU9QqaoCpzYZov22XOTwAnMPduyYWRfw-LHJvKIQ1Tzja3D82leam-a4XM-4WSWSUn3Fe4A5Ubyj"
                           method="POST">
-                        <input name="u" value="bbd5781f8c72a1885774d98c0" type="hidden">
-                        <input name="orig-lang" value="1" type="hidden">
-                        <input name="id" value="2ee26e2206" type="hidden">
+
                         <input type="submit" value="ISCRIVITI ALLA NEWSLETTER" name="submit" class="btn btn-theme">
                     </form>
                 </div>
