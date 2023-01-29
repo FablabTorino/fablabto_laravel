@@ -2,6 +2,15 @@
     <div id="footer" class="footer">
         <!-- begin container -->
         <div class="container">
+            <h3 class="footer-title">STRATEGIC PARTNER</h3>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 align-center">
+                    <a href="https://www.toolboxoffice.it/">
+                        <img class="collab-logo-big" src="/images/brand/brand-toolbox.png"></a>
+                </div>
+            </div>
+
+
             <h4 class="footer-title">Collaboriamo con</h4>
             <!-- begin row -->
             <div class="row">
@@ -21,15 +30,22 @@
                 <!-- begin column -->
                 <div class="col-md-2 col-sm-6">
                     <a href="http://www.polito.it">
-                    <img class="collab-logo" src="/images/brand/brand-polito.png"></a>
+                    <img class="collab-logo" src="/images/brand/brand-polito.png" style="max-height: 70px"></a>
                 </div>
                 <!-- end column -->
                 <!-- begin column -->
-                <div class="col-md-3 col-sm-6">
-                    <a href="https://www.toolboxoffice.it/">
-                    <img class="collab-logo" src="/images/brand/brand-toolbox.png"></a>
+                <div class="col-md-2 col-sm-6">
+                    <a href="https://www.arduino.cc/">
+                    <img class="collab-logo" src="/images/brand/brand-arduino.png" style="max-height: 70px"></a>
                 </div>
                 <!-- end column -->
+                <!-- begin column -->
+                <div class="col-md-2 col-sm-6">
+                    <a href="https://www.kway.com/">
+                        <img class="collab-logo" src="/images/brand/brand-kway.png" style="max-height: 80px"></a>
+                </div>
+                <!-- end column -->
+
             </div>
             <!-- end row -->
             <!-- begin row -->
@@ -59,13 +75,30 @@
                 </div>
                 <!-- end column -->
                 <!-- begin column -->
-                <div class="col-md-3 col-sm-6">
-                    <a href="https://matilde.it">
-                        <img class="collab-logo" src="/images/brand/brand-lamatilde.png"></a>
+                <div class="col-md-2 col-sm-6">
+                    <a href="https://www.printclubtorino.it">
+                        <img class="collab-logo" src="/images/brand/brand-printclub.png"></a>
                 </div>
                 <!-- end column -->
             </div>
             <!-- end row -->
+            <!-- begin row -->
+            <div class="row">
+                <!-- begin column -->
+                <div class="col-md-6 col-sm-6">
+                    <a href="https://makpi.it">
+                        <img class="collab-logo" src="/images/brand/brand-makpi.png"></a>
+                </div>
+                <!-- end column -->
+                <!-- begin column -->
+                <div class="col-md-6 col-sm-6">
+                    <a href="https://www.sireaservice.it/">
+                        <img class="collab-logo" src="/images/brand/brand-sirea.png"></a>
+                </div>
+                <!-- end column -->
+            </div>
+            <!-- end row -->
+
         </div>
         <!-- end container -->
     </div>

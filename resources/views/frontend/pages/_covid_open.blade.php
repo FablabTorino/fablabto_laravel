@@ -4,15 +4,10 @@
 
     <p class="row">
         <p class="col-md-12">
-            <p style="text-align: center;">
-                <strong class="text-danger" style="color: #00acac !important;">
-                ATTENZIONE! Per accedere al laboratorio e partecipare a tutte le attivit&agrave; <br/>&egrave; necessario
-                    essere in possesso di Green Pass Rafforzato e indossare una mascherina FFP2!
-                </strong>
-            </p>
+
             <p><strong class="text-danger">IL FABLAB È APERTO ?</strong><br>
-                Il laboratorio è aperto e utilizzabile dai soci tesserati nei consueti orari di apertura (lun. - ven. 16.00 - 20.00),
-                previa prenotazione e senza superare la capienza massima di 15 persone.
+                Il laboratorio è aperto ai soci tesserati da Lunedi al Venerdi, dalle 16 alle 20, previa prenotazione.
+                In laboratorio è ammesso un massimo di 30 persone contemporaneamente.
 
             <p>Per prenotare &egrave; necessario:<br/></p>
                 <ul>
@@ -20,19 +15,16 @@
                     <li>Compilare il <a href="http://bit.ly/formprenotazione_fabto">Form di Prenotazione</a></li>
                 </ul>
 
-            <p>Queste regole sono valide solo ed esclusivamente per i soci tesserati.</p>
-
             <p><strong class="text-danger">E' POSSIBILE PARTECIPARE ALL'OPEN DAY?</strong><br>
-                Per i non tesserati, gli Open Day sono come sempre al mercoledì (esclusi i festivi) dalle 19.00 alle 20.00,
-                prenotando il proprio turno (in inglese o italiano) a questo link: <a href="https://www.eventbrite.it/e/214695679557">PRENOTA!</a> </p>
+                Se non sei ancora tesserato, puoi venire a conoscere Fablab Torino partecipando all'Open Day ogni mercoledi (esclusi i festivi),
+                dalle 19 alle 20. Prenota il tuo turno, in inglese o in italiano, a questo link: <a href="https://www.eventbrite.it/e/214695679557">PRENOTA!</a> </p>
 
             <p><strong class="text-danger">AVETE IN PROGRAMMA WORKSHOP IN PRESENZA?</strong><br>
-                La nostra offerta formativa è di nuovo in presenza negli spazi del Fablab,
-                nel pieno rispetto delle norme di sicurezza.</p>
-            <p>Per conoscere le date dei prossimi workshop assicurati di seguirci su <a href="https://www.facebook.com/fablabtorino">Facebook</a>,
-                di essere iscritto alla nostra <a href="index.html#contact" onclick="$('#modal-covid').modal('hide')" >Newsletter</a> e
+                Ogni mese proponiamo attività base ed avanzate ad accesso libero. Per rimanere sempre aggiornato sulle prossime date, assicurati
+                di seguirci su <a href="https://www.facebook.com/fablabtorino">Facebook</a> e
+                <a href="https://www.instagram.com/fablabtorino/">Instagram</a>, di essere iscritto alla
+                nostra <a href="index.html#contact" onclick="$('#modal-covid').modal('hide')" >Fabletter</a> e
                 di seguire il canale <a href="https://t.me/fablabtorino">Telegram News</a></p>
-
             <p> Ci vediamo al Fablab! </p>
 
         </p>

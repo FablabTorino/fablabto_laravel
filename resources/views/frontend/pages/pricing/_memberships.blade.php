@@ -32,9 +32,9 @@
                         <ul class="features">
                             <li>Accesso Laboratorio dalle ore 16:00 alle 20:00</li>
                             <li>Copertura Assicurativa</li>
-                            <li>Frequentare gratuitamente Workshop Hello World</li>
+                            <li>Frequenza gratuita Hello World</li>
                             <li>Utilizzo macchine a consumo</li>
-                            <li>Frequentare tutte le attività del FablabTO</li>
+                            <li>Accesso libero a tutte le attività del FablabTO</li>
                         </ul>
                         <div class="footer">
                             <a href="pay" class="btn btn-inverse btn-block">Io! Sono uno studente! OK!</a>
@@ -60,9 +60,9 @@
                         <ul class="features">
                             <li>Accesso Laboratorio dalle ore 16:00 alle 20:00</li>
                             <li>Copertura Assicurativa</li>
-                            <li>Frequentare gratuitamente Workshop Hello World</li>
+                            <li>Frequenza gratuita Hello World</li>
                             <li>Utilizzo macchine a consumo</li>
-                            <li>Frequentare tutte le attività del FablabTO</li>
+                            <li>Accesso libero a tutte le attività del FablabTO</li>
                         </ul>
                         <div class="footer">
                             <a href="pay" class="btn btn-inverse btn-block">E vada per una Base! Mi iscrivo!</a>
@@ -89,7 +89,7 @@
                             <li>Tutto quello elencato in "Tessera Base"</li>
                             <li>Accesso Laboratorio 24/7</li>
                             <li>Stoccaggio Materiali produttivi</li>
-                            <li>Utilizzo macchinari in orari extra-fablab</li>
+                            <li>Utilizzo macchinari in orari extra-Fablab</li>
                             <li>Pensata per piccole partite IVA che hanno necessità di produzioni continue</li>
                         </ul>
                         <div class="footer">
@@ -115,11 +115,11 @@
                             </div>
                         </div>
                         <ul class="features">
-                            <li>Accesso Laboratorio dalle ore 16:00 alle 00:00</li>
+                            <li>Accesso Laboratorio dalle ore 16:00 alle 20:00</li>
                             <li>Copertura Assicurativa</li>
-                            <li>Frequentare gratuitamente Workshop Hello World</li>
+                            <li>Frequenza gratuita Hello World</li>
                             <li>Utilizzo macchine a consumo</li>
-                            <li>Frequentare tutte le attività del FablabTO</li>
+                            <li>Accesso libero a tutte le attività del FablabTO</li>
                         </ul>
                         <div class="footer">
                             <a href="affiliated" class="btn btn-inverse btn-block">Ce l'ho! Evvai!</a>

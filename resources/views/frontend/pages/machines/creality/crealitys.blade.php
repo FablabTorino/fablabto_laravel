@@ -9,7 +9,7 @@
 
 @extends('layouts.frontend')
 
-@section('title', 'Fablab Torino | Creality 10S5')
+@section('title', 'Fablab Torino | Creality 10S')
 
 @section('content')
 
@@ -38,7 +38,7 @@
                     <div class="product-info">
                         <!-- BEGIN product-info-header -->
                         <div class="product-info-header">
-                            <h1 class="product-title">Creality 10 S5</h1>
+                            <h1 class="product-title">Creality 10 S</h1>
                         </div>
                         <!-- END product-info-header -->
 
@@ -53,11 +53,11 @@
                         <!-- BEGIN CARATTERISTICHE -->
                         <ul class="product-info-list">
                             <li><i class="fa fa-circle"></i> Tecnologia: FDM</li>
-                            <li><i class="fa fa-circle"></i> Area di stampa: 50 x 50 cm</li>
-                            <li><i class="fa fa-circle"></i> Altezza di stampa: 50 cm</li>
+                            <li><i class="fa fa-circle"></i> Area di stampa: 300 x 400 mm</li>
+                            <li><i class="fa fa-circle"></i> Altezza di stampa: 400 mm</li>
                             <li><i class="fa fa-circle"></i> Diametro ugello:  0.4 mm</li>
                             <li><i class="fa fa-circle"></i> Diametro filamento: 1.75 mm</li>
-                            <li><i class="fa fa-circle"></i> Velocit&agrave; stampa: 60 mm/sec</li>
+                            <li><i class="fa fa-circle"></i> Velocit&agrave; stampa: 50 mm/sec</li>
                         </ul>
                         <!-- END CARATTERISTICHE -->
 
@@ -80,7 +80,7 @@
                                 <ul>
                                     <li><a href="/files/creality/CR10S5-Manual.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
                                     <li><a href="https://ultimaker.com/it/software/ultimaker-cura" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Cura Slicer" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
-                                    <li><a href="https://www.creality.com/goods-detail/creality-cr-10-s5-3d-printer" class="link" data-toggle="tooltip" data-trigger="hover" data-title="Sito Ufficiale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-globe"></i></a></li>
+
                                 </ul>
                             </div>
                             <div><b>Link utili:</b></div>
@@ -90,7 +90,7 @@
                         <!-- BEGIN PREZZO -->
                         <div class="product-purchase-container">
                             <div class="product-price">
-                                <div class="price">&euro; 5.00 / ora</div>
+                                <div class="price">&euro; 5.00 / ora comprensivo di materiale</div>
                             </div>
                             <a class="btn btn-theme btn-lg" type="submit" href="/booking">PRENOTA</a>
                         </div>
@@ -103,7 +103,7 @@
                         <!-- BEGIN product-thumbnails -->
                         <div class="product-thumbnail">
                             <ul class="product-thumbnail-list">
-                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/creality/creality.png"><img src="/images/machines/creality/creality.png" alt=""></a></li>
+                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/creality/crealitys.png"><img src="/images/machines/creality/crealitys.png" alt=""></a></li>
                                 <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c1.jpg"><img src="/images/machines/creality/c1.jpg" alt=""></a></li>
                                 <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c2.jpg"><img src="/images/machines/creality/c2.jpg" alt=""></a></li>
                                 <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c3.jpg"><img src="/images/machines/creality/c3.jpg" alt=""></a></li>
@@ -114,7 +114,7 @@
 
                         <!-- BEGIN product-main-image -->
                         <div class="product-main-image" data-id="main-image">
-                            <img src="/images/machines/creality/creality.png" alt="">
+                            <img src="/images/machines/creality/crealitys.png" alt="">
                         </div>
                         <!-- END product-main-image -->
                     </div>

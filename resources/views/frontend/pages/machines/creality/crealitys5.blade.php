@@ -9,12 +9,12 @@
 
 @extends('layouts.frontend')
 
-@section('title', 'Fablab Torino | Laser Cutter')
+@section('title', 'Fablab Torino | Creality 10S5')
 
 @section('content')
 
     <!-- Title section for history page -->
-    <div id="matilda" class="content bg-black-darker has-bg extraPageTitle titleSmall" data-scrollview="true">
+    <div id="creality" class="content bg-black-darker has-bg extraPageTitle titleSmall" data-scrollview="true">
         <!-- begin content-bg -->
         <div class="content-bg" style="background-image: url(/images/bg/bg-generic.jpg)"
              data-paroller-factor="0.5"
@@ -25,7 +25,7 @@
     </div>
     <!-- end Title section -->
 
-    <div id="matilda" class="content extraPageContentGhost" data-scrollview="true">
+    <div id="creality" class="content extraPageContentGhost" data-scrollview="true">
         <!-- begin container -->
         <div class="container">
 
@@ -38,7 +38,7 @@
                     <div class="product-info">
                         <!-- BEGIN product-info-header -->
                         <div class="product-info-header">
-                            <h1 class="product-title">Laser Cutter2</h1>
+                            <h1 class="product-title">Creality 10 S5</h1>
                         </div>
                         <!-- END product-info-header -->
 
@@ -46,18 +46,24 @@
                         <div class="product-warranty">
                             <div class="pull-right btn btn-lime btn-xs ">Operativa</div>
                             <!--div class="pull-right btn btn-red btn-xs ">In manutenzione</div-->
-                            <div><b>Stato:</b></div>
+                            <div><b>Stato Macchina 1:</b></div>
+                        </div>
+                        <div class="product-warranty">
+                            <div class="pull-right btn btn-lime btn-xs ">Operativa</div>
+                            <!--div class="pull-right btn btn-red btn-xs ">In manutenzione</div-->
+                            <div><b>Stato Macchina 2:</b></div>
                         </div>
                         <!-- END STATO -->
 
                         <!-- BEGIN CARATTERISTICHE -->
                         <ul class="product-info-list">
-                            <li><i class="fa fa-circle"></i> Area di taglio: 120 x 90 cm</li>
-                            <li><i class="fa fa-circle"></i> Altezza materiale lavorabile: 200mm</li>
-                            <li><i class="fa fa-circle"></i> Spessore di taglio:  0-10mm</li>
-                            <li><i class="fa fa-circle"></i> Risoluzione grafica: 0,0254mm (1000dpi)</li>
-                            <li><i class="fa fa-circle"></i> Potenza laser: 120 watt CO2</li>
-                            <li><i class="fa fa-circle"></i> Controller: Leetro MPC6585</li>
+                            <li><i class="fa fa-circle"></i> Tecnologia: FDM</li>
+                            <li><i class="fa fa-circle"></i> Area di stampa: 500 x 500 mm</li>
+                            <li><i class="fa fa-circle"></i> Altezza di stampa: 500 mm</li>
+                            <li><i class="fa fa-circle"></i> Diametro ugello macchina 1:  0.8 mm</li>
+                            <li><i class="fa fa-circle"></i> Diametro ugello macchina 2:  0.6 mm</li>
+                            <li><i class="fa fa-circle"></i> Diametro filamento: 1.75 mm</li>
+                            <li><i class="fa fa-circle"></i> Velocit&agrave; stampa: 50 mm/sec</li>
                         </ul>
                         <!-- END CARATTERISTICHE -->
 
@@ -67,9 +73,9 @@
                             <div class="pull-right btn btn-theme btn-xs"
                                  data-toggle="tooltip" data-trigger="hover"
                                  data-title="Per poter utilizzare il macchinario in autonomia, &egrave; necessario aver
-                                            seguito il corso Hello World LaserCut! Visita la sezione 'Hello World' per conoscere
+                                            seguito il corso Hello World 3D Print! Visita la sezione 'Hello World' per conoscere
                                             la data del prossimo incontro!"
-                                 data-placement="bottom" data-original-title="" title="">Hello World LaserCut</div>
+                                 data-placement="bottom" data-original-title="" title="">Hello World 3D Print</div>
                             <div><b>Requisiti utilizzo:</b></div>
                         </div>
                         <!-- END PREREQUISITI -->
@@ -78,10 +84,8 @@
                         <div class="product-warranty">
                             <div class="pull-right product-social">
                                 <ul>
-                                    <li><a href="/files/matilda/MPC6585-HW-Manual-V1.4.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale Controller" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
-                                    <li><a href="/files/matilda/Workline-Complete-Manual.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale Completo" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
-                                    <li><a href="/files/matilda/LaserCut61.zip" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Software" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
-                                    <li><a href="https://www.worklinestore.com/-/plotter-laser-co2-1300x900mm-wl1390" class="link" data-toggle="tooltip" data-trigger="hover" data-title="Sito Ufficiale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-globe"></i></a></li>
+                                    <li><a href="/files/creality/CR10S5-Manual.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
+                                    <li><a href="https://ultimaker.com/it/software/ultimaker-cura" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Cura Slicer" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
                                 </ul>
                             </div>
                             <div><b>Link utili:</b></div>
@@ -91,7 +95,7 @@
                         <!-- BEGIN PREZZO -->
                         <div class="product-purchase-container">
                             <div class="product-price">
-                                <div class="price">&euro; 1.00 / min</div>
+                                <div class="price">&euro; 5.00 / ora comprensivo di materiale</div>
                             </div>
                             <a class="btn btn-theme btn-lg" type="submit" href="/booking">PRENOTA</a>
                         </div>
@@ -104,18 +108,18 @@
                         <!-- BEGIN product-thumbnails -->
                         <div class="product-thumbnail">
                             <ul class="product-thumbnail-list">
-                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/matilda/matilda.png"><img src="/images/machines/matilda/matilda.png" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/matilda/m1.jpg"><img src="/images/machines/matilda/m1.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/matilda/m2.jpg"><img src="/images/machines/matilda/m2.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/matilda/m3.jpg"><img src="/images/machines/matilda/m3.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/matilda/m4.jpg"><img src="/images/machines/matilda/m4.jpg" alt=""></a></li>
+                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/creality/crealitys5.png"><img src="/images/machines/creality/crealitys5.png" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c1.jpg"><img src="/images/machines/creality/c1.jpg" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c2.jpg"><img src="/images/machines/creality/c2.jpg" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c3.jpg"><img src="/images/machines/creality/c3.jpg" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c4.jpg"><img src="/images/machines/creality/c4.jpg" alt=""></a></li>
                             </ul>
                         </div>
                         <!-- END product-thumbnails -->
 
                         <!-- BEGIN product-main-image -->
                         <div class="product-main-image" data-id="main-image">
-                            <img src="/images/machines/matilda/matilda.png" alt="">
+                            <img src="/images/machines/creality/crealitys5.png" alt="">
                         </div>
                         <!-- END product-main-image -->
                     </div>
@@ -127,26 +131,22 @@
 
                 <!-- BEGIN product-tab -->
                 <div class="product-tab">
-                    <!-- BEGIN #product-tab -->
+
+                    <!--
                     <ul id="product-tab" class="nav nav-tabs">
                         <li class="nav-item"><a class="nav-link active" href="#product-materials" data-toggle="tab">Materiali</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#product-settings" data-toggle="tab">Pennini</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#product-profiles" data-toggle="tab">Profili</a></li>
                         <li class="nav-item"><a class="nav-link" href="#product-faq" data-toggle="tab">F.A.Q.</a></li>
-                    </ul>
-                    <!-- END #product-tab -->
+                    </ul> -->
 
-                    <!-- BEGIN #product-tab-content -->
                     <div id="product-tab-content" class="tab-content">
+                        @include('frontend.pages.machines.creality._tab-materials')
 
-                        @include('frontend.pages.machines.matilda._tab-materials')
+                        @include('frontend.pages.machines.creality._tab-profiles')
 
-                        @include('frontend.pages.machines.matilda._tab-settings')
-
-                        @include('frontend.pages.machines.matilda._tab-faq')
-
-
+                        @include('frontend.pages.machines.creality._tab-faq')
                     </div>
-                    <!-- END #product-tab-content -->
+
                 </div>
                 <!-- END product-tab -->
             </div>
