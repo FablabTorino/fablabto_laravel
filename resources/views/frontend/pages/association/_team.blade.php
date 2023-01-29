@@ -9,7 +9,7 @@
             <!-- begin row -->
             <div class="row">
                 <!-- begin col-4 -->
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-3 col-sm-12">
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
@@ -24,7 +24,7 @@
                 </div>
                 <!-- end col-4 -->
                 <!-- begin col-4 -->
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-3 col-sm-12">
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
@@ -40,7 +40,7 @@
                 </div>
                 <!-- end col-4 -->
                 <!-- begin col-4 -->
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-3 col-sm-12">
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
@@ -55,13 +55,8 @@
                     <!-- end team -->
                 </div>
                 <!-- end col-4 -->
-            </div>
-            <!-- end row -->
-
-            <!-- begin row -->
-            <div class="row">
                 <!-- begin col-4 -->
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-3 col-sm-12">
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
@@ -76,6 +71,11 @@
                     <!-- end team -->
                 </div>
                 <!-- end col-4 -->
+            </div>
+            <!-- end row -->
+
+            <!-- begin row -->
+            <div class="row">
                 <!-- begin col-4 -->
                 <div class="col-md-4 col-sm-12">
                     <!-- begin team -->
