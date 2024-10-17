@@ -17,7 +17,7 @@
         </div>
         <div class="timeline-content">
             <p>
-                Come proseguimento e consolidamento dell'esperienza di Fablab Italia, in via Egeo 16 apre il Fablab Torino
+                Come proseguimento e consolidamento dell'esperienza di Fablab Italia, in via Egeo apre il Fablab Torino
                 che conosciamo oggi. In sinergia con le Officine Arduino, il laboratorio si stabilisce in modo permanente
                 negli spazi post-industriali di <a href="https://www.toolboxoffice.it">Toolbox Coworking</a>.
                 Una realt&agrave; innovativa e ricca di fermento, in continua evoluzione, che si rivela la dimensione

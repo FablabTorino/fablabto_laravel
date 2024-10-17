@@ -19,9 +19,9 @@
                         Per gli associati il Fablab &egrave; aperto <strong>dal luned&igrave; al venerd&igrave;</strong>,
                         dalle 16.00 alle 20.00.
                         <br />
-                        Non sei associato? Vieni a trovarci durante l’<a href="openday">Open Day</a>, ogni <strong>mercoledì</strong>
+                        Non sei associato? Vieni a trovarci durante l’<a href="openday">Open Day</a>, ogni 2 <strong>mercoledì</strong>
                         dalle 19.00 alle 20.00. <strong class="text-danger">Per partecipare all'Open Day &egrave;
-                            necessario prenotare il proprio turno (in inglese o italiano) al seguente link: <a href="https://www.eventbrite.it/e/214695679557">PRENOTA!</a></strong>
+                            necessario prenotare il proprio turno (in inglese o italiano) al seguente link: <a href="https://www.eventbrite.it/e/biglietti-open-day-fablab-torino-887656744217">PRENOTA!</a></strong>
                     </p>
                 </div>
 
@@ -29,7 +29,6 @@
                     <h5>Dove Siamo</h5>
                     <p>
                         Ci trovi in Via Egeo 18 a Torino<br />
-                        Ingresso notturno a partire dalle 19 in Via Egeo 16 <br />
                         Fablab Torino &egrave; ospitato all'interno di <a href="http://www.toolboxoffice.it">Toolbox Coworking</a> <br />
                     </p>
                 </div>
