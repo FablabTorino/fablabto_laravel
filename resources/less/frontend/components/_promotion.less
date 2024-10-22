@@ -47,6 +47,9 @@
     top: -30px;
     bottom: -30px;
 }
+.promotion-image-light {
+    opacity: 0.6;
+}
 .promotion-image img {
     max-width: 100%;
     max-height: 100%;
@@ -75,7 +78,7 @@
 .promotion-desc {
     font-size: 12px;
     margin-bottom: 15px;
-    color: #666;
+    color: #333;
 }
 .promotion-lg .promotion-desc {
     font-size: 14px;
@@ -88,7 +91,7 @@
     border-radius: 4px;
     display: inline-block;
     font-size: 12px;
-    position: absolute;
+    position: relative;
     bottom: 25px;
     background: #00acacdd;
 }
@@ -109,6 +112,7 @@
 .promotion-price {
     font-size: 16px;
     margin-bottom: 5px;
+    color: #333;
 }
 .promotion-lg .promotion-price {
     font-size: 22px;
@@ -135,10 +139,7 @@
     border-color: rgba(255,255,255,0.25);
     color: rgba(255,255,255,0.75);
 }
-
-
 .dark-overlay {
-
     &:after {
         content: '';
         background: url('/images/bg/bg-content-cover.png');
@@ -149,6 +150,4 @@
         top: 0;
         bottom: 0;
     }
-
-
 }

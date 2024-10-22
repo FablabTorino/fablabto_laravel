@@ -7,19 +7,6 @@
     <script type="text/javascript" src="/plugins/slitslider/modernizr.custom.79639.js"></script>
 @endpush
 
-<div class="modal hide fade" id="modal-covid">
-    <div class="modal-dialog fullpage">
-        <div class="modal-content">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-
-            <div class="modal-body">
-                @include('frontend.pages._covid_open')
-            </div>
-        </div>
-    </div>
-</div>
-
-
 
 <div id="home" class="content has-bg">  <!-- class="home" -->
 
@@ -135,12 +122,6 @@
             ss.options.speed = 2000;
             ss.resize();
 
-        });
-    </script>
-
-    <script type="text/javascript" >
-        $(window).on('load',function(){
-            $('#modal-covid').modal('show');
         });
     </script>
 @endpush

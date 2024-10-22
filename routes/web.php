@@ -24,6 +24,7 @@ Route::get('/giftcard', function () {return view('frontend.pages.pricing.giftcar
 Route::get('/projects', function () {return view('frontend.pages.projects.projects');});
 Route::get('/openday', function () {return view('frontend.pages.events.openday');});
 Route::get('/helloworld', function () {return view('frontend.pages.events.helloworld');});
+Route::get('/machines', function () {return view('frontend.pages.machines.machines');});
 Route::get('/communities', function () {return view('frontend.pages.communities.communities');});
 Route::get('/newsletter', function () {return view('frontend.pages.events.newsletter');});
 Route::get('/pay', function () {

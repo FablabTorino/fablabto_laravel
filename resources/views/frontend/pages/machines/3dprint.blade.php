@@ -6,7 +6,7 @@
             <div class="modal-body">
                 <div class="row row-space-10">
                     <!-- BEGIN col-6-->
-                    <div class="col-md-6">
+                    <div class="mx-auto col-md-6">
                         <div class="dark-overlay promotion promotion-lg">
                             <div class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
                                 <img src="images/machines/creality/crealitys5.png" alt="Creality CR-10 S5">
@@ -28,7 +28,7 @@
                     <!-- END col-6 -->
 
                     <!-- BEGIN col-6-->
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <div class="dark-overlay promotion promotion-lg">
                             <div class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
                                 <img src="images/machines/creality/crealitys.png" alt="Creality CR-10 S">
@@ -46,7 +46,7 @@
                                 <a href="3dprint/crealitys.png" class="promotion-btn">Dettagli</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- END col-6 -->
 
                     <!-- BEGIN col-6

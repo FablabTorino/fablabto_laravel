@@ -7,7 +7,7 @@
                 <div class="row row-space-10">
 
                     <!-- BEGIN col-6 MATILDA-->
-                    <div class="col-md-6">
+                    <div class="mx-auto col-md-6">
                         <div class="dark-overlay promotion promotion-lg">
                             <div
                                 class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
@@ -32,7 +32,7 @@
                     <!-- END col-6 MATILDA -->
 
                     <!-- BEGIN col-6 EUREKA-->
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <div class="dark-overlay promotion promotion-lg">
                             <div
                                 class="promotion-image text-right promotion-image-overflow-top promotion-image-overflow-right">
@@ -54,7 +54,7 @@
                                 <a href="laser/eureka" class="promotion-btn">Dettagli</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- END col-6 EUREKA -->
 
                 </div>
