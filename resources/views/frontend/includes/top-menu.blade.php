@@ -24,14 +24,14 @@
     <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown">CORSI/EVENTI <b class="caret"></b></a>
         <div class="dropdown-menu dropdown-menu-left animated fadeInDown">
-            <a class="dropdown-item" href="https://www.notion.so/fablabtorino/Humanizing-Technology-8c323fab226b40c49d72a65868b9a4a6" data-target="#workshop">Workshop</a>
+            <a class="dropdown-item" href="https://www.eventbrite.it/o/fablab-torino-3147853804" data-target="#workshop" target="_blank">Workshop</a>
             <a class="dropdown-item" href="/openday" data-target="#openday">Open Day</a>
-            <a class="dropdown-item" href="/helloworld" data-target="#helloworld">Hello World</a>
+            <!-- <a class="dropdown-item" href="/helloworld" data-target="#helloworld">Hello World</a> -->
             <a class="dropdown-item" href="/communities" data-target="#communities">Communities</a>
         </div>
     </li>
 
-    <li class="nav-item"><a class="nav-link" href="/newsletter" data-target="#news" data-click="scroll-to-target">NEWS</a></li>
+    <!-- <li class="nav-item"><a class="nav-link" href="/newsletter" data-target="#news" data-click="scroll-to-target">NEWS</a></li> -->
 
     <li class="nav-item"><a class="nav-link" href="/pricing" data-target="#pricing" data-click="scroll-to-target">ISCRIVITI</a></li>
 

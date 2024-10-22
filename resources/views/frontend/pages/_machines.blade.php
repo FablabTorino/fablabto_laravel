@@ -1,4 +1,3 @@
-<div class="separator" id="machines" ></div>
 <div id="machines" class="content bg-silver-lighter" data-scrollview="true">
         <!-- begin container -->
         <div class="container" data-animation="true" data-animation-type="fadeInDown">

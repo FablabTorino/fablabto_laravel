@@ -108,13 +108,6 @@
                     </form>
                 </div>
                 <!-- end item -->
-                <!-- begin item -->
-                <div class="carousel-item">
-                    <h1 class="content-title">Humanizing Technology</h1>
-                    <h3>Un programma speciale di workshop in collaborazione con il Circolo del Design</h3>
-                    <a href="workshop" class="btn btn-theme">SCOPRI GLI APPUNTAMENTI</a>
-                </div>
-                <!-- end item -->
             </div>
             <!-- end carousel-inner -->
             <!-- begin carousel-indicators -->
@@ -122,7 +115,6 @@
                 <li data-target="#testimonials" data-slide-to="0" class="active"></li>
                 <li data-target="#testimonials" data-slide-to="1" class=""></li>
                 <li data-target="#testimonials" data-slide-to="2" class=""></li>
-                <li data-target="#testimonials" data-slide-to="3" class=""></li>
             </ol>
             <!-- end carousel-indicators -->
         </div>

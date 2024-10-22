@@ -16,10 +16,16 @@
                 <div class="spaced-div">
                     <h5>Orari</h5>
                     <p>
-                        Per gli associati il Fablab &egrave; aperto <strong>dal luned&igrave; al venerd&igrave;</strong>,
-                        dalle 16.00 alle 20.00.
+                        Per gli associati il Fablab &egrave; aperto:
                         <br />
-                        Non sei associato? Vieni a trovarci durante l’<a href="openday">Open Day</a>, ogni 2 <strong>mercoledì</strong>
+                        <strong>dal marted&igrave; al gioved&igrave;</strong>, dalle 16.00 alle 20.00.
+                    </p>
+                </div>
+
+                <div class="spaced-div">
+                    <h5>Open day</h5>
+                    <p>
+                        Non sei associato? Vieni a trovarci durante l’Open Day, ogni 2 <strong>mercoledì</strong>
                         dalle 19.00 alle 20.00. <strong class="text-danger">Per partecipare all'Open Day &egrave;
                             necessario prenotare il proprio turno (in inglese o italiano) al seguente link: <a href="https://www.eventbrite.it/e/biglietti-open-day-fablab-torino-887656744217">PRENOTA!</a></strong>
                     </p>

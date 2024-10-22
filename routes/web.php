@@ -60,6 +60,5 @@ Route::get('/vinyl/camm', function () {return view('frontend.pages.machines.unde
 
 Route::get('/booking', function () {return redirect('https://bit.ly/formprenotazione_fabto');});
 
-//Route::get('/programma10', function () {return view('frontend.pages.events.birthday');});
 Route::get('/programma10', function () {return redirect('https://www.eventbrite.it/e/biglietti-fablab-torino-10th-bday-315289739097');});
 

@@ -28,10 +28,10 @@
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
-                            <img src="images/team/mc.png" alt="Marco Cassino" />
+                            <img src="images/team/mg.jpg" alt="Matteo Giaccone" />
                         </div>
                         <div class="info">
-                            <h3 class="name">Marco Cassino</h3>
+                            <h3 class="name">Matteo Giaccone</h3>
                             <div class="title text-theme">VICEPRESIDENTE</div>
 
                         </div>
@@ -44,10 +44,10 @@
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
-                            <img src="images/team/gt.png" alt="Giuseppe Treccarichi" />
+                            <img src="images/team/pc.png" alt="Paolo Cavagnolo" />
                         </div>
                         <div class="info">
-                            <h3 class="name">Giuseppe Treccarichi</h3>
+                            <h3 class="name">Paolo Cavagnolo</h3>
                             <div class="title text-theme">TESORIERE</div>
 
                         </div>
@@ -60,10 +60,10 @@
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
-                            <img src="images/team/am.png" alt="Alice Mela" />
+                            <img src="images/team/mc.png" alt="Marco Cassino" />
                         </div>
                         <div class="info">
-                            <h3 class="name">Alice Mela</h3>
+                            <h3 class="name">Marco Cassino</h3>
                             <div class="title text-theme">SEGRETARIO</div>
 
                         </div>
@@ -81,10 +81,10 @@
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
-                            <img src="images/team/pc.png" alt="Paolo Cavagnolo" />
+                            <img src="images/team/ef.jpg" alt="Elena Falomo" />
                         </div>
                         <div class="info">
-                            <h3 class="name">Paolo Cavagnolo</h3>
+                            <h3 class="name">Elena Falomo</h3>
                             <div class="title text-theme">CONSIGLIERE</div>
 
                         </div>
@@ -97,10 +97,10 @@
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
-                            <img src="images/team/lp.png" alt="Lucrezia Pasi" />
+                            <img src="images/team/mo.jpg" alt="Marco Orto" />
                         </div>
                         <div class="info">
-                            <h3 class="name">Lucrezia Pasi</h3>
+                            <h3 class="name">Marco Orto</h3>
                             <div class="title text-theme">CONSIGLIERE</div>
 
                         </div>
@@ -113,10 +113,10 @@
                     <!-- begin team -->
                     <div class="team">
                         <div class="image" data-animation="true" data-animation-type="flipInX">
-                            <img src="images/team/pv.png" alt="Pierluigi Vona" />
+                            <img src="images/team/ap.jpg" alt="Andrea Patrucco" />
                         </div>
                         <div class="info">
-                            <h3 class="name">Pierluigi Vona</h3>
+                            <h3 class="name">Andrea Patrucco</h3>
                             <div class="title text-theme">CONSIGLIERE</div>
 
                         </div>
