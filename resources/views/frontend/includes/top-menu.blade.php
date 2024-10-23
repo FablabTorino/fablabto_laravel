@@ -18,7 +18,7 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="/machines">MACCHINE</a>
+        <a class="nav-link" href="/machines" data-target="#machines">MACCHINE</a>
     </li>
 
     <li class="nav-item dropdown">

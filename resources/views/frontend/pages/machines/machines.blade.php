@@ -5,9 +5,9 @@
 @section('content')
 
     <!-- Title section for Machines page -->
-    <div id="faq" class="content bg-black-darker has-bg extraPageTitle" data-scrollview="true">
+    <div id="machines" class="content bg-black-darker has-bg extraPageTitle" data-scrollview="true">
         <!-- begin content-bg -->
-        <div class="content-bg" style="background-image: url(/images/bg/bg-faq.jpg)"
+        <div class="content-bg" style="background-image: url(/images/bg/bg-cnc.jpg)"
              data-paroller-factor="0.5"
              data-paroller-factor-md="0.01"
              data-paroller-factor-xs="0.01">
