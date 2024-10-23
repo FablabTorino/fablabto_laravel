@@ -31,7 +31,7 @@
         </div>
     </li>
 
-    <!-- <li class="nav-item"><a class="nav-link" href="/newsletter" data-target="#news" data-click="scroll-to-target">NEWS</a></li> -->
+    <li class="nav-item"><a class="nav-link" href="/newsletter" data-target="#news" data-click="scroll-to-target">NEWS</a></li>
 
     <li class="nav-item"><a class="nav-link" href="/pricing" data-target="#pricing" data-click="scroll-to-target">ISCRIVITI</a></li>
 
