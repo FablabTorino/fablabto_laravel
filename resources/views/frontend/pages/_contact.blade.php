@@ -18,7 +18,7 @@
                     <p>
                         Per gli associati il Fablab &egrave; aperto:
                         <br />
-                        <strong>dal marted&igrave; al gioved&igrave;</strong>, dalle 16.00 alle 20.00.
+                        <strong>il marted&igrave; e il gioved&igrave;</strong>, dalle 16.00 alle 20.00.
                         <br />
                         Se vuoi usare le macchine, <a href="/machines">prenotale!</a>
                     </p>
