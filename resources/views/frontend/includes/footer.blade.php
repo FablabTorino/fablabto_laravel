@@ -85,15 +85,21 @@
             <!-- begin row -->
             <div class="row">
                 <!-- begin column -->
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <a href="https://makpi.it">
                         <img class="collab-logo" src="/images/brand/brand-makpi.png"></a>
                 </div>
                 <!-- end column -->
                 <!-- begin column -->
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <a href="https://www.sireaservice.it/">
                         <img class="collab-logo" src="/images/brand/brand-sirea.png"></a>
+                </div>
+                <!-- end column -->
+                <!-- begin column -->
+                <div class="col-md-4 col-sm-6">
+                    <a href="https://www.iaad.it/">
+                        <img class="collab-logo" src="/images/brand/brand-iaad.png"></a>
                 </div>
                 <!-- end column -->
             </div>
