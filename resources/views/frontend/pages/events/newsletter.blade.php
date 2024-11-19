@@ -35,50 +35,25 @@
     <!-- end Title section -->
 
     <div id="news" class="content extraPageContentLight" data-scrollview="true">
-        <!-- begin container
-        <div class="container">
-            <p class="content-desc">
-
-            </p>
-
-        </div> -->
-
         <div id="latest_mail">
-            <p class="text-center">
-                ... caricamento...
-            </p>
+            @php
+            $api_key = env('SIB_API_KEY', '');
+            $curl = curl_init();
+            curl_setopt($curl, CURLOPT_HTTPHEADER, [
+                'Accept: application/json',
+                'api-key: ' . $api_key
+            ]);
+            curl_setopt($curl, CURLOPT_URL, 'https://api.sendinblue.com/v3/emailCampaigns?limit=1&offset=0&sort=desc');
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+
+            $result = curl_exec($curl);
+            curl_close($curl);
+
+            $latest_newsletter = json_decode($result);
+            echo $latest_newsletter->campaigns[0]->htmlContent;
+
+            @endphp
         </div>
-
-        <!-- end container -->
-
     </div>
 
 @endsection
-
-@push('scripts')
-    <script>
-        @php
-            $api_key = env('SIB_API_KEY', '');
-        @endphp
-        $(document).ready(function() {
-            if ($('#latest_mail').length != 0) {
-                $.ajax({
-                    url: 'https://api.sendinblue.com/v3/emailCampaigns?limit=1&offset=0&sort=desc',
-                    method: 'GET',
-                    headers: {
-                        Accept: 'application/json',
-                        'api-key': '{{$api_key}}'
-                    },
-
-                    success: function(data) {
-                        console.log(data.campaigns[0].htmlContent);
-                        var contents = data.campaigns[0].htmlContent;
-                        contents = contents.replace(/height: 18px;/ig, '');
-                        $('#latest_mail').empty().append(contents);
-                        //$('#test1').attr("srcdoc", contents);
-                    }
-                });
-            }
-        });
-    </script>
-@endpush
