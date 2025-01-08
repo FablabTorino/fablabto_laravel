@@ -43,7 +43,7 @@
                 'Accept: application/json',
                 'api-key: ' . $api_key
             ]);
-            curl_setopt($curl, CURLOPT_URL, 'https://api.sendinblue.com/v3/emailCampaigns?limit=1&offset=0&sort=desc');
+            curl_setopt($curl, CURLOPT_URL, 'https://api.brevo.com/v3/emailCampaigns?status=sent&limit=1&offset=0&sort=desc');
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 
             $result = curl_exec($curl);
