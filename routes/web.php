@@ -27,20 +27,9 @@ Route::get('/helloworld', function () {return view('frontend.pages.events.hellow
 Route::get('/machines', function () {return view('frontend.pages.machines.machines');});
 Route::get('/communities', function () {return view('frontend.pages.communities.communities');});
 Route::get('/newsletter', function () {return view('frontend.pages.events.newsletter');});
-Route::get('/pay', function () {
-    $month = date('m');
-    if      ($month >= 9) return redirect('https://anp.winddoc.com/short/3xm/');
-    elseif  ($month >= 5) return redirect('https://anp.winddoc.com/short/3xj/');
-    else                  return redirect('https://anp.winddoc.com/short/2xs/');
 
-});
-Route::get('/renew', function () {
-    $month = date('m');
-    if      ($month >= 9) return redirect('https://anp.winddoc.com/short/49h/');
-    elseif  ($month >= 5) return redirect('https://anp.winddoc.com/short/49k/');
-    else                  return redirect('https://anp.winddoc.com/short/49j/');
-
-});
+Route::get('/pay', function () {return redirect('https://anp.winddoc.com/short/2xs/');});
+Route::get('/renew', function () {return redirect('https://anp.winddoc.com/short/49h/');});
 Route::get('/affiliated', function () { return redirect('https://anp.winddoc.com/short/4bx/');});
 
 Route::get('/signup', function () { return view('frontend.pages.pricing.signup');});
