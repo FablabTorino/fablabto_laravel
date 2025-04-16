@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6">
+            <!-- <div class="col-md-6 col-sm-6">
                 <div class="promotion promotion-lg ">
                     <div class="promotion-image promotion-image-light text-right promotion-image-overflow-top promotion-image-overflow-right">
                         <img src="images/machines/fresone/fresone.png" alt="Fresone">
@@ -65,6 +65,25 @@
                         <p class="promotion-desc">Il gigante del Fablab!<br>
                             Potente e massiccia, nessun lavoro &egrave; troppo pesante per lei!</p>
                         <a href="cnc/fresone" class="btn btn-inverse">Dettagli</a>
+                        <a href="/booking" class="btn btn-theme">Prenota</a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="col-md-6 col-sm-6">
+                <div class="promotion promotion-lg">
+                    <div class="promotion-image promotion-image-light text-right promotion-image-overflow-top promotion-image-overflow-right">
+                        <img src="images/machines/roland/roland.png" alt="Roland">
+                    </div>
+                    <div class=" promotion-caption">
+                        <h4 class="promotion-title">Roland</h4>
+                        <div class="promotion-price">
+                            <small><i class="fas fa-ruler fa-fw"></i></small> 30 x 30 cm <br/>
+                            <small><i class="fas fa-wrench fa-fw"></i></small> pinza 3/4/6 mm <br/>
+                            <small><i class="fas fa-euro-sign fa-fw"></i></small> 40 euro/ora
+                        </div>
+                        <p class="promotion-desc">La pi&ugrave; precisa al Fablab!<br>
+                            Sembra un micro-onde, ma anche senza esserlo sforna dei veri capolavori!</p>
+                        <a href="cnc/roland" class="btn btn-inverse">Dettagli</a>
                         <a href="/booking" class="btn btn-theme">Prenota</a>
                     </div>
                 </div>
