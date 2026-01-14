@@ -15,8 +15,9 @@
                         <ul class="features">
                             <li>Accesso Laboratorio durante eventi</li>
                             <li>Copertura Assicurativa</li>
-                            <li>Accesso libero a tutte le attività del FablabTO</li>
                             <li>Partecipazione alle attività delle community del FablabTO</li>
+                            <li>Accesso libero a tutte le attività del FablabTO</li>
+                            <li>Ingresso scontato a €2 (invece di €5) alle mostre del Circolo del Design</li>
                         </ul>
                         <div class="footer">
                             <a href="pay" class="btn btn-inverse btn-block">Evviva le community!</a>
@@ -43,6 +44,7 @@
                             <li>Frequenza gratuita Hello World</li>
                             <li>Utilizzo macchine a consumo</li>
                             <li>Accesso libero a tutte le attività del FablabTO</li>
+                            <li>Ingresso scontato a €2 (invece di €5) alle mostre del Circolo del Design</li>
                         </ul>
                         <div class="footer">
                             <a href="affiliated" class="btn btn-inverse btn-block">Sono studente PoliTO!</a>
@@ -69,6 +71,7 @@
                             <li>Frequenza gratuita Hello World</li>
                             <li>Utilizzo macchine a consumo</li>
                             <li>Accesso libero a tutte le attività del FablabTO</li>
+                            <li>Ingresso scontato a €2 (invece di €5) alle mostre del Circolo del Design</li>
                         </ul>
                         <div class="footer">
                             <a href="pay" class="btn btn-inverse btn-block">Io! Sono uno studente! OK!</a>
@@ -95,6 +98,7 @@
                             <li>Frequenza gratuita Hello World</li>
                             <li>Utilizzo macchine a consumo</li>
                             <li>Accesso libero a tutte le attività del FablabTO</li>
+                            <li>Ingresso scontato a €2 (invece di €5) alle mostre del Circolo del Design</li>
                         </ul>
                         <div class="footer">
                             <a href="pay" class="btn btn-theme btn-block">E vada per una Base! Mi iscrivo!</a>
