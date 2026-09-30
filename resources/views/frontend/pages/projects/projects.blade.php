@@ -43,21 +43,10 @@
                 <!-- begin card-columns -->
                 <div class="card-columns">
 
-                    <!-- begin PIEZOPINZA -->
-                    @include('frontend.pages.projects._piezopinza')
-                    <!-- end PIEZOPINZA -->
-
-                    <!-- begin ESPTELEGRAMSTATS -->
-                    @include('frontend.pages.projects._esptelegramstats')
-                    <!-- end ESPTELEGRAMSTATS -->
-
-                    <!-- begin SPASSOUNO -->
-                    @include('frontend.pages.projects._spassouno')
-                    <!-- end SPASSOUNO -->
-
-                    <!-- begin SELFOMATIC -->
-                    @include('frontend.pages.projects._selfomatic')
-                    <!-- end SELFOMATIC -->
+                    {{-- Projects are listed in resources/data/projects.php --}}
+                    @foreach($projects as $project)
+                        @include('frontend.pages.projects._card')
+                    @endforeach
 
                 </div>
                 <!-- end card-columns -->

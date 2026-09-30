@@ -21,7 +21,20 @@ Route::get('/association', function () {return view('frontend.pages.association.
 Route::get('/pricing', function () {return view('frontend.pages.pricing.pricing');});
 Route::get('/donation', function () {return view('frontend.pages.pricing.donation');});
 Route::get('/giftcard', function () {return view('frontend.pages.pricing.giftcard');});
-Route::get('/projects', function () {return view('frontend.pages.projects.projects');});
+Route::get('/projects', function () {
+    // Most recently updated first; projects without dates keep their listed order, at the end
+    $projects = collect(require resource_path('data/projects.php'))
+        ->map(function ($project, $index) {
+            // "image" is a single photo or a list: the first one is the cover shown on the card
+            $images = (array) $project['image'];
+            return ['image' => $images[0], 'images' => $images, 'position' => $index] + $project;
+        })
+        ->sort(function ($a, $b) {
+            $byDate = strcmp($b['updated'] ?? $b['created'] ?? '', $a['updated'] ?? $a['created'] ?? '');
+            return $byDate ?: $a['position'] <=> $b['position'];
+        });
+    return view('frontend.pages.projects.projects', ['projects' => $projects]);
+});
 Route::get('/openday', function () {return view('frontend.pages.events.openday');});
 Route::get('/helloworld', function () {return view('frontend.pages.events.helloworld');});
 Route::get('/machines', function () {return view('frontend.pages.machines.machines');});
