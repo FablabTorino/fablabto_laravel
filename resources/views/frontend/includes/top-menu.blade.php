@@ -26,8 +26,8 @@
         <div class="dropdown-menu dropdown-menu-left animated fadeInDown">
             <a class="dropdown-item" href="https://www.eventbrite.it/o/3147853804" data-target="#workshop" target="_blank">Workshop</a>
             <a class="dropdown-item" href="/openday" data-target="#openday">Open Day</a>
-            <!-- <a class="dropdown-item" href="/helloworld" data-target="#helloworld">Hello World</a> -->
-            <!-- <a class="dropdown-item" href="/communities" data-target="#communities">Communities</a> -->
+            <a class="dropdown-item" href="/helloworld" data-target="#helloworld">Hello World</a>
+            <a class="dropdown-item" href="/communities" data-target="#communities">Communities</a>
         </div>
     </li>
 

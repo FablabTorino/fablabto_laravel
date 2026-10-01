@@ -1,18 +1,19 @@
 
 
-<div class="account-container">
+<div class="account-container communities-inactive">
     <!-- BEGIN account-sidebar -->
     <div class="account-sidebar">
         <div class="account-sidebar-cover">
             <img src="images/cover/cover-arduino.jpg" alt="">
         </div>
         <div class="account-sidebar-content">
-            <img src="images/communities/aug.png" alt="" class="communities_logo">
+            <img src="images/communities/aug.png" alt="Arduino User Group Torino" class="communities_logo">
         </div>
     </div>
     <!-- END account-sidebar -->
     <!-- BEGIN account-body -->
     <div class="account-body">
+        <h3>Arduino User Group Torino <span class="communities-status">Non attiva</span></h3>
         <!-- BEGIN row -->
         <div class="row">
             <!-- BEGIN col-8 -->
@@ -22,9 +23,6 @@
                     L'Arduino User Group nasce dal desiderio degli utenti Arduino di incontrarsi e affrontare assieme le
                     gioie e i dolori dei loro progetti personali.
                 </p>
-
-                <h4><i class="far fa-calendar-alt fa-fw"></i> Orari</h4>
-                <p> il secondo e il quarto mercoledì di ogni mese dalle 19.00 alle 22.00</p>
             </div>
             <!-- END col-8 -->
             <!-- BEGIN col-4 -->

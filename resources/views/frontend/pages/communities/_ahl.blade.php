@@ -1,18 +1,19 @@
 
 
-<div class="account-container">
+<div class="account-container communities-inactive">
     <!-- BEGIN account-sidebar -->
     <div class="account-sidebar">
         <div class="account-sidebar-cover">
             <img src="images/cover/cover-ahl.jpg" alt="">
         </div>
         <div class="account-sidebar-content">
-            <img src="images/communities/ahl.png" alt="" class="communities_logo">
+            <img src="images/communities/ahl.png" alt="Audio Hack Lab" class="communities_logo">
         </div>
     </div>
     <!-- END account-sidebar -->
     <!-- BEGIN account-body -->
     <div class="account-body">
+        <h3>Audio Hack Lab <span class="communities-status">Non attiva</span></h3>
         <!-- BEGIN row -->
         <div class="row">
             <!-- BEGIN col-8 -->
@@ -23,9 +24,6 @@
                     produzione musicale, passando dall'hacking di strumenti esistenti alla creazione di nuove macchine sonore,
                     grazie al supporto dell'elettronica e delle nuove tecnologie digitali di fabbricazione.
                 </p>
-
-                <h4><i class="far fa-calendar-alt fa-fw"></i> Orari</h4>
-                <p> da definire</p>
             </div>
             <!-- END col-8 -->
             <!-- BEGIN col-4 -->

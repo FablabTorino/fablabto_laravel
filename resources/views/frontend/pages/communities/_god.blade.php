@@ -1,16 +1,17 @@
-<div class="account-container">
+<div class="account-container communities-inactive">
     <!-- BEGIN account-sidebar -->
     <div class="account-sidebar">
         <div class="account-sidebar-cover">
             <img src="images/cover/cover-god.jpg" alt="">
         </div>
         <div class="account-sidebar-content">
-            <img src="images/communities/god.png" alt="" class="communities_logo">
+            <img src="images/communities/god.png" alt="Game of Drones" class="communities_logo">
         </div>
     </div>
     <!-- END account-sidebar -->
     <!-- BEGIN account-body -->
     <div class="account-body">
+        <h3>Game of Drones <span class="communities-status">Non attiva</span></h3>
         <!-- BEGIN row -->
         <div class="row">
             <!-- BEGIN col-8 -->
@@ -21,9 +22,6 @@
                     di presentare progetti sempre innovativi. Il team &egrave; composto da membri che sviluppano e
                     pilotano droni da corsa, ma non solo!
                 </p>
-
-                <h4><i class="far fa-calendar-alt fa-fw"></i> Orari</h4>
-                <p> da definire</p>
             </div>
             <!-- END col-8 -->
             <!-- BEGIN col-4 -->

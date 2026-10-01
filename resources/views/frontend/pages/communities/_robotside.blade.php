@@ -1,16 +1,17 @@
-<div class="account-container">
+<div class="account-container communities-inactive">
     <!-- BEGIN account-sidebar -->
     <div class="account-sidebar">
         <div class="account-sidebar-cover">
             <img src="images/cover/cover-robot.jpg" alt="">
         </div>
         <div class="account-sidebar-content">
-            <img src="images/communities/robotside.png" alt="" class="communities_logo">
+            <img src="images/communities/robotside.png" alt="Robot Side" class="communities_logo">
         </div>
     </div>
     <!-- END account-sidebar -->
     <!-- BEGIN account-body -->
     <div class="account-body">
+        <h3>Robot Side <span class="communities-status">Non attiva</span></h3>
         <!-- BEGIN row -->
         <div class="row">
             <!-- BEGIN col-8 -->
@@ -21,9 +22,6 @@
                     per
                     parlare e sperimentare con la robotica ogni settimana.
                 </p>
-
-                <h4><i class="far fa-calendar-alt fa-fw"></i> Orari</h4>
-                <p> tutti i venerd&igrave; sera dalle 19.30</p>
             </div>
             <!-- END col-8 -->
             <!-- BEGIN col-4 -->
