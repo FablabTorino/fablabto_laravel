@@ -51,6 +51,17 @@
             border-left-width: 0px;
         }
 
+        /* submit button attached to the input: straight left side, rounded right side */
+        & .form-control:not(:last-child) {
+            border-radius: 0;
+            border-right-width: 0;
+        }
+        & .btn.btn-news {
+            height: 32px;
+            margin-left: 0;
+            border-radius: 0 25px 25px 0;
+        }
+
         & .input-group-text {
             border-radius: 25px 0px 0px 25px;
             border-right-width: 0px;
@@ -74,6 +85,17 @@
         border-radius: 0 30px 30px 0;
     }
 
+}
+
+/* subscribe box at the top of the newsletter page */
+.newsletter-subscribe {
+    margin-bottom: 40px;
+    text-align: center;
+
+    & .contact-form {
+        max-width: 500px;
+        margin: 20px auto 0;
+    }
 }
 
 .btn.btn-news {

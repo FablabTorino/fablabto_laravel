@@ -35,6 +35,17 @@
     <!-- end Title section -->
 
     <div id="news" class="content extraPageContentLight" data-scrollview="true">
+        <!-- begin subscribe -->
+        <div class="container newsletter-subscribe">
+            <div class="content-desc">
+                Le news del Fablab Torino arrivano con la nostra <span class="text-highlight">newsletter</span>:
+                qui sotto trovi l'ultima che abbiamo inviato.<br/>
+                Per riceverle direttamente nella tua casella, inserisci la tua email e clicca su INVIA!
+            </div>
+            @include('frontend.includes.newsletter-form')
+        </div>
+        <!-- end subscribe -->
+
         <div id="latest_mail">
             @php
             $api_key = env('SIB_API_KEY', '');
