@@ -44,7 +44,7 @@
                 19.00 alle 20.00</span>.<br/>
                 <strong class="text-danger"> Per partecipare all'Open Day &egrave;
                     necessario prenotare il proprio turno (in inglese o italiano) al seguente link:
-                    <a href="https://www.eventbrite.it/e/214695679557">PRENOTA!</a>
+                    <a href="https://www.eventbrite.it/o/3147853804">PRENOTA!</a>
                 </strong>
 
             </p>

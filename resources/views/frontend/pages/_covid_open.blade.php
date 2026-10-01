@@ -17,7 +17,7 @@
 
             <p><strong class="text-danger">E' POSSIBILE PARTECIPARE ALL'OPEN DAY?</strong><br>
                 Se non sei ancora tesserato, puoi venire a conoscere Fablab Torino partecipando all'Open Day ogni 2 mercoledi (esclusi i festivi),
-                dalle 19 alle 20. Prenota il tuo turno, in inglese o in italiano, a questo link: <a href="https://www.eventbrite.it/e/biglietti-open-day-fablab-torino-887656744217">PRENOTA!</a> </p>
+                dalle 19 alle 20. Prenota il tuo turno, in inglese o in italiano, a questo link: <a href="https://www.eventbrite.it/o/3147853804">PRENOTA!</a> </p>
 
             <p><strong class="text-danger">AVETE IN PROGRAMMA WORKSHOP IN PRESENZA?</strong><br>
                 Ogni mese proponiamo attività base ed avanzate ad accesso libero. Per rimanere sempre aggiornato sulle prossime date, assicurati

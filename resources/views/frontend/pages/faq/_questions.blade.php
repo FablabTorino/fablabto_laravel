@@ -33,7 +33,7 @@
                     <div class="card-body">
                         Sei il benvenuto! <br />
                         Vieni a trovarci durante i nostri Open Day, ogni 2 mercoledì dalle 19.00 alle 20.00.
-                        <a href="https://www.eventbrite.it/e/biglietti-open-day-fablab-torino-887656744217">Prenotati!</a><br />
+                        <a href="https://www.eventbrite.it/o/3147853804">Prenotati!</a><br />
                         Risponderemo alle tue domande e potrai decidere se vuoi iscriverti al FablabTo!
                     </div>
                 </div>
