@@ -120,6 +120,7 @@
                 <li><a href="https://www.instagram.com/fablabtorino"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://github.com/FablabTorino"><i class="fab fa-github"></i></a></li>
                 <li><a href="https://t.me/fablabtorino" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
+                <li><a href="https://discord.com/channels/1217070073680756877/1217070073680756879" title="Discord"><i class="fab fa-discord"></i></a></li>
                 <li><a href="https://www.linkedin.com/company/fablab-torino" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>

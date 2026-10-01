@@ -95,6 +95,13 @@
                     </form>
                 </div>
                 <!-- end item -->
+                <!-- begin item -->
+                <div class="carousel-item">
+                    <h1 class="content-title">Entra nella community!</h1>
+                    <h3>Chiacchiera con i soci, chiedi consigli e condividi i tuoi progetti sul nostro server Discord</h3>
+                    <a href="https://discord.com/channels/1217070073680756877/1217070073680756879" class="btn btn-theme">UNISCITI SU DISCORD</a>
+                </div>
+                <!-- end item -->
             </div>
             <!-- end carousel-inner -->
             <!-- begin carousel-indicators -->
@@ -102,6 +109,7 @@
                 <li data-target="#testimonials" data-slide-to="0" class="active"></li>
                 <li data-target="#testimonials" data-slide-to="1" class=""></li>
                 <li data-target="#testimonials" data-slide-to="2" class=""></li>
+                <li data-target="#testimonials" data-slide-to="3" class=""></li>
             </ol>
             <!-- end carousel-indicators -->
         </div>
