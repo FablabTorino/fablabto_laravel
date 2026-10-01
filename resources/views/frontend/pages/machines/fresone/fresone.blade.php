@@ -101,10 +101,6 @@
                         <div class="product-thumbnail">
                             <ul class="product-thumbnail-list">
                                 <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/fresone/fresone.png"><img src="/images/machines/fresone/fresone.png" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c1.jpg"><img src="/images/machines/creality/c1.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c2.jpg"><img src="/images/machines/creality/c2.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c3.jpg"><img src="/images/machines/creality/c3.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c4.jpg"><img src="/images/machines/creality/c4.jpg" alt=""></a></li>
                             </ul>
                         </div>
                         <!-- END product-thumbnails -->

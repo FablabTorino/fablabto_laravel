@@ -9,12 +9,12 @@
 
 @extends('layouts.frontend')
 
-@section('title', 'Fablab Torino | Roland')
+@section('title', 'Fablab Torino | Creality Ender-3 V2 Neo')
 
 @section('content')
 
     <!-- Title section for history page -->
-    <div id="roland" class="content bg-black-darker has-bg extraPageTitle titleSmall" data-scrollview="true">
+    <div id="creality" class="content bg-black-darker has-bg extraPageTitle titleSmall" data-scrollview="true">
         <!-- begin content-bg -->
         <div class="content-bg" style="background-image: url(/images/bg/bg-generic.jpg)"
              data-paroller-factor="0.5"
@@ -25,7 +25,7 @@
     </div>
     <!-- end Title section -->
 
-    <div id="roland" class="content extraPageContentGhost" data-scrollview="true">
+    <div id="creality" class="content extraPageContentGhost" data-scrollview="true">
         <!-- begin container -->
         <div class="container">
 
@@ -38,7 +38,7 @@
                     <div class="product-info">
                         <!-- BEGIN product-info-header -->
                         <div class="product-info-header">
-                            <h1 class="product-title">Roland</h1>
+                            <h1 class="product-title">Creality Ender-3 V2 Neo</h1>
                         </div>
                         <!-- END product-info-header -->
 
@@ -52,7 +52,16 @@
 
                         <!-- BEGIN CARATTERISTICHE -->
                         <ul class="product-info-list">
-                            <li><i class="fa fa-circle"></i> Area di lavoro: 30 x 30 cm</li>
+                            <li><i class="fa fa-circle"></i> Tecnologia: FDM</li>
+                            <li><i class="fa fa-circle"></i> Area di stampa: 220 x 220 mm</li>
+                            <li><i class="fa fa-circle"></i> Altezza di stampa: 250 mm</li>
+                            <li><i class="fa fa-circle"></i> Diametro ugello: 0.4 mm</li>
+                            <li><i class="fa fa-circle"></i> Diametro filamento: 1.75 mm</li>
+                            <li><i class="fa fa-circle"></i> Altezza layer: 0.05 - 0.35 mm</li>
+                            <li><i class="fa fa-circle"></i> Velocit&agrave; stampa: fino a 120 mm/sec</li>
+                            <li><i class="fa fa-circle"></i> Temperatura ugello / piatto: fino a 260 / 100 &deg;C</li>
+                            <li><i class="fa fa-circle"></i> Livellamento automatico: CR Touch</li>
+                            <li><i class="fa fa-circle"></i> Materiali: PLA, PETG, ABS</li>
                         </ul>
                         <!-- END CARATTERISTICHE -->
 
@@ -62,9 +71,9 @@
                             <div class="pull-right btn btn-theme btn-xs"
                                  data-toggle="tooltip" data-trigger="hover"
                                  data-title="Per poter utilizzare il macchinario in autonomia, &egrave; necessario aver
-                                            seguito il corso Hello World CNC! Visita la sezione 'Hello World' per conoscere
+                                            seguito il corso Hello World 3D Print! Visita la sezione 'Hello World' per conoscere
                                             la data del prossimo incontro!"
-                                 data-placement="bottom" data-original-title="" title="">Hello World CNC</div>
+                                 data-placement="bottom" data-original-title="" title="">Hello World 3D Print</div>
                             <div><b>Requisiti utilizzo:</b></div>
                         </div>
                         <!-- END PREREQUISITI -->
@@ -73,7 +82,8 @@
                         <div class="product-warranty">
                             <div class="pull-right product-social">
                                 <ul>
-                                    <!--<li><a href="/files/fresone/NVCNC_NCH02_EN.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>-->
+                                    <li><a href="https://www.creality.com/download/ender-3-v2-neo-3d-printer" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-book"></i></a></li>
+                                    <li><a href="https://ultimaker.com/it/software/ultimaker-cura" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Cura Slicer" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
                                 </ul>
                             </div>
                             <div><b>Link utili:</b></div>
@@ -83,11 +93,7 @@
                         <!-- BEGIN PREZZO -->
                         <div class="product-purchase-container">
                             <div class="product-price">
-                                <div class="price">&euro; 40.00 / ora</div>
-                                <div class="small">pacchetto 10h  -> sconto 5%</div>
-                                <div class="small">pacchetto 20h  -> sconto 10%</div>
-                                <div class="small">pacchetto 50h  -> sconto 15%</div>
-                                <div class="small">pacchetto 100h -> sconto 20%</div>
+                                <div class="price">&euro; 5.00 / ora comprensivo di materiale</div>
                             </div>
                             <a class="btn btn-theme btn-lg" type="submit" href="/booking">PRENOTA</a>
                         </div>
@@ -100,14 +106,16 @@
                         <!-- BEGIN product-thumbnails -->
                         <div class="product-thumbnail">
                             <ul class="product-thumbnail-list">
-                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/roland/roland.png"><img src="/images/machines/roland/roland.png" alt=""></a></li>
+                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/creality/ender3v2neo.png"><img src="/images/machines/creality/ender3v2neo.png" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/ender3v2neo-1.jpg"><img src="/images/machines/creality/ender3v2neo-1.jpg" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/ender3v2neo-2.jpg"><img src="/images/machines/creality/ender3v2neo-2.jpg" alt=""></a></li>
                             </ul>
                         </div>
                         <!-- END product-thumbnails -->
 
                         <!-- BEGIN product-main-image -->
                         <div class="product-main-image" data-id="main-image">
-                            <img src="/images/machines/roland/roland.png" alt="">
+                            <img src="/images/machines/creality/ender3v2neo.png" alt="">
                         </div>
                         <!-- END product-main-image -->
                     </div>
@@ -134,7 +142,6 @@
 
                         @include('frontend.pages.machines.creality._tab-faq')
                     </div>
-
 
                 </div>
                 <!-- END product-tab -->

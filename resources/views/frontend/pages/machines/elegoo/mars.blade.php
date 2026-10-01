@@ -9,12 +9,12 @@
 
 @extends('layouts.frontend')
 
-@section('title', 'Fablab Torino | Creality 10S')
+@section('title', 'Fablab Torino | Elegoo Mars')
 
 @section('content')
 
     <!-- Title section for history page -->
-    <div id="creality" class="content bg-black-darker has-bg extraPageTitle titleSmall" data-scrollview="true">
+    <div id="mars" class="content bg-black-darker has-bg extraPageTitle titleSmall" data-scrollview="true">
         <!-- begin content-bg -->
         <div class="content-bg" style="background-image: url(/images/bg/bg-generic.jpg)"
              data-paroller-factor="0.5"
@@ -25,7 +25,7 @@
     </div>
     <!-- end Title section -->
 
-    <div id="creality" class="content extraPageContentGhost" data-scrollview="true">
+    <div id="mars" class="content extraPageContentGhost" data-scrollview="true">
         <!-- begin container -->
         <div class="container">
 
@@ -38,7 +38,7 @@
                     <div class="product-info">
                         <!-- BEGIN product-info-header -->
                         <div class="product-info-header">
-                            <h1 class="product-title">Creality 10 S</h1>
+                            <h1 class="product-title">Elegoo Mars</h1>
                         </div>
                         <!-- END product-info-header -->
 
@@ -52,12 +52,13 @@
 
                         <!-- BEGIN CARATTERISTICHE -->
                         <ul class="product-info-list">
-                            <li><i class="fa fa-circle"></i> Tecnologia: FDM</li>
-                            <li><i class="fa fa-circle"></i> Area di stampa: 300 x 400 mm</li>
-                            <li><i class="fa fa-circle"></i> Altezza di stampa: 400 mm</li>
-                            <li><i class="fa fa-circle"></i> Diametro ugello:  0.4 mm</li>
-                            <li><i class="fa fa-circle"></i> Diametro filamento: 1.75 mm</li>
-                            <li><i class="fa fa-circle"></i> Velocit&agrave; stampa: 50 mm/sec</li>
+                            <li><i class="fa fa-circle"></i> Tecnologia: MSLA (resina fotopolimerica, UV 405 nm)</li>
+                            <li><i class="fa fa-circle"></i> Area di stampa: 120 x 68 mm</li>
+                            <li><i class="fa fa-circle"></i> Altezza di stampa: 155 mm</li>
+                            <li><i class="fa fa-circle"></i> Schermo LCD: 2K (2560 x 1440)</li>
+                            <li><i class="fa fa-circle"></i> Risoluzione XY: 0.047 mm</li>
+                            <li><i class="fa fa-circle"></i> Altezza layer: 0.01 - 0.2 mm</li>
+                            <li><i class="fa fa-circle"></i> Velocit&agrave; stampa: 22.5 mm/ora</li>
                         </ul>
                         <!-- END CARATTERISTICHE -->
 
@@ -78,9 +79,8 @@
                         <div class="product-warranty">
                             <div class="pull-right product-social">
                                 <ul>
-                                    <li><a href="/files/creality/CR10S5-Manual.pdf" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-file-pdf"></i></a></li>
-                                    <li><a href="https://ultimaker.com/it/software/ultimaker-cura" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="Cura Slicer" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
-
+                                    <li><a href="https://www.elegoo.com/pages/download" class="pdf" data-toggle="tooltip" data-trigger="hover" data-title="Manuale" data-placement="bottom" data-original-title="" title=""><i class="fas fa-book"></i></a></li>
+                                    <li><a href="https://www.chitubox.com/en/download/chitubox-free" class="exe" data-toggle="tooltip" data-trigger="hover" data-title="ChiTuBox Slicer" data-placement="bottom" data-original-title="" title=""><i class="fas fa-laptop"></i></a></li>
                                 </ul>
                             </div>
                             <div><b>Link utili:</b></div>
@@ -103,18 +103,15 @@
                         <!-- BEGIN product-thumbnails -->
                         <div class="product-thumbnail">
                             <ul class="product-thumbnail-list">
-                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/creality/crealitys.png"><img src="/images/machines/creality/crealitys.png" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c1.jpg"><img src="/images/machines/creality/c1.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c2.jpg"><img src="/images/machines/creality/c2.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c3.jpg"><img src="/images/machines/creality/c3.jpg" alt=""></a></li>
-                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/creality/c4.jpg"><img src="/images/machines/creality/c4.jpg" alt=""></a></li>
+                                <li class="active"><a href="#" data-click="show-main-image" data-url="/images/machines/elegoo/mars.png"><img src="/images/machines/elegoo/mars.png" alt=""></a></li>
+                                <li><a href="#" data-click="show-main-image" data-url="/images/machines/elegoo/mars-1.jpg"><img src="/images/machines/elegoo/mars-1.jpg" alt=""></a></li>
                             </ul>
                         </div>
                         <!-- END product-thumbnails -->
 
                         <!-- BEGIN product-main-image -->
                         <div class="product-main-image" data-id="main-image">
-                            <img src="/images/machines/creality/crealitys.png" alt="">
+                            <img src="/images/machines/elegoo/mars.png" alt="">
                         </div>
                         <!-- END product-main-image -->
                     </div>

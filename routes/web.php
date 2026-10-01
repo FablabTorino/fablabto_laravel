@@ -49,8 +49,9 @@ Route::get('/signup', function () { return view('frontend.pages.pricing.signup')
 Route::get('/workshop', function () { return redirect('https://www.notion.so/fablabtorino/Humanizing-Technology-8c323fab226b40c49d72a65868b9a4a6');});
 
 // Machines and detailed pages
-Route::get('/3dprint/crealitys5', function () {return view('frontend.pages.machines.creality.crealitys5');});
-Route::get('/3dprint/crealitys', function () {return view('frontend.pages.machines.creality.crealitys');});
+Route::get('/3dprint/centauricarbon/{id}', function ($id) {return view('frontend.pages.machines.elegoo.centauricarbon', ['id' => $id]);})->where('id', '[12]');
+Route::get('/3dprint/ender3v2neo', function () {return view('frontend.pages.machines.creality.ender3v2neo');});
+Route::get('/3dprint/mars', function () {return view('frontend.pages.machines.elegoo.mars');});
 Route::get('/3dprint/kossel', function () {return view('frontend.pages.machines.under_constr');});
 
 Route::get('/laser/matilda', function () {return view('frontend.pages.machines.matilda.matilda');});
