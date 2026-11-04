@@ -78,9 +78,7 @@
                                 <h4 class="promotion-title">Elegoo Mars</h4>
                                 <div class="promotion-price">
                                     <small><i class="fas fa-ruler fa-fw"></i></small> 120 x 68 x 155 mm <br/>
-                                    <small><i class="fas fa-tint fa-fw"></i></small> resina, 0.047 mm XY <br/>
-                                    <small><i class="fas fa-euro-sign fa-fw"></i></small> 5 euro/ora
-                                            <small>comprensivo di materiale</small>
+                                    <small><i class="fas fa-tint fa-fw"></i></small> resina, 0.047 mm XY
                                 </div>
                                 <p class="promotion-desc">
                                     Stampa a resina per dettagli finissimi e superfici lisce!</p>

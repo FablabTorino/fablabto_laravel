@@ -106,7 +106,7 @@
                         <p class="promotion-desc">
                             Veloce e chiusa, stampa anche i materiali tecnici!</p>
                         <a href="3dprint/centauricarbon/1" class="btn btn-inverse">Dettagli</a>
-                        <span class="btn btn-default disabled" data-toggle="tooltip" data-trigger="hover" data-title="Presto disponibile" data-placement="bottom">Prenota</span>
+                        <a href="/booking" class="btn btn-theme">Prenota</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                         <p class="promotion-desc">
                             Veloce e chiusa, stampa anche i materiali tecnici!</p>
                         <a href="3dprint/centauricarbon/2" class="btn btn-inverse">Dettagli</a>
-                        <span class="btn btn-default disabled" data-toggle="tooltip" data-trigger="hover" data-title="Presto disponibile" data-placement="bottom">Prenota</span>
+                        <a href="/booking" class="btn btn-theme">Prenota</a>
                     </div>
                 </div>
             </div>
@@ -161,14 +161,12 @@
                         <h4 class="promotion-title">Elegoo Mars</h4>
                         <div class="promotion-price">
                             <small><i class="fas fa-ruler fa-fw"></i></small> 120 x 68 x 155 mm <br/>
-                            <small><i class="fas fa-tint fa-fw"></i></small> resina, 0.047 mm XY <br/>
-                            <small><i class="fas fa-euro-sign fa-fw"></i></small> 5 euro/ora
-                                    <small>comprensivo di materiale</small>
+                            <small><i class="fas fa-tint fa-fw"></i></small> resina, 0.047 mm XY
                         </div>
                         <p class="promotion-desc">
                             Stampa a resina per dettagli finissimi e superfici lisce!</p>
                         <a href="3dprint/mars" class="btn btn-inverse">Dettagli</a>
-                        <a href="/booking" class="btn btn-theme">Prenota</a>
+                        <a href="mailto:info@fablabtorino.org?subject=Richiesta%20Elegoo%20Mars" class="btn btn-theme" data-toggle="tooltip" data-trigger="hover" data-title="Non prenotabile: disponibile su richiesta" data-placement="bottom">Su richiesta</a>
                     </div>
                 </div>
             </div>

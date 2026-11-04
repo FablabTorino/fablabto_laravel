@@ -95,7 +95,7 @@
                             <div class="product-price">
                                 <div class="price">&euro; 5.00 / ora comprensivo di materiale</div>
                             </div>
-                            <span class="btn btn-default btn-lg disabled" data-toggle="tooltip" data-trigger="hover" data-title="Presto disponibile" data-placement="bottom">PRENOTA</span>
+                            <a class="btn btn-theme btn-lg" href="/booking">PRENOTA</a>
                         </div>
                         <!-- END PREZZO -->
                     </div>

@@ -87,14 +87,14 @@
                         </div>
                         <!-- END MATERIALE UTILE -->
 
-                        <!-- BEGIN PREZZO -->
+                        <!-- BEGIN DISPONIBILITA -->
                         <div class="product-purchase-container">
                             <div class="product-price">
-                                <div class="price">&euro; 5.00 / ora comprensivo di materiale</div>
+                                <div class="price">Disponibile su richiesta</div>
                             </div>
-                            <a class="btn btn-theme btn-lg" type="submit" href="/booking">PRENOTA</a>
+                            <a class="btn btn-theme btn-lg" href="mailto:info@fablabtorino.org?subject=Richiesta%20Elegoo%20Mars">RICHIEDI</a>
                         </div>
-                        <!-- END PREZZO -->
+                        <!-- END DISPONIBILITA -->
                     </div>
                     <!-- END product-info -->
 
