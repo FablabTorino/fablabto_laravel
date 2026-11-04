@@ -6,6 +6,7 @@
 #
 #   ./deploy.sh              build and upload to fablab:laravel
 #   DEPLOY_TARGET=fablab:laravel13 ./deploy.sh    upload somewhere else
+#   UPLOAD_ONLY=1 ./deploy.sh                     skip the artisan step on the server
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -33,6 +34,11 @@ fi
 
 echo "==> Uploading to $TARGET"
 rsync -rlvz -P "$BUILD/" "$TARGET/"
+
+if [ -n "${UPLOAD_ONLY:-}" ]; then
+    echo "==> Uploaded only: run 'php artisan package:discover && php artisan optimize' in $DIR on the server"
+    exit 0
+fi
 
 echo "==> Refreshing caches on the server"
 ssh "$HOST" "cd '$DIR' && mkdir -p storage/app/private storage/app/public storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache && php artisan package:discover && php artisan optimize"
