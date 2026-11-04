@@ -48,22 +48,23 @@
 
         <div id="latest_mail">
             @php
-            $api_key = env('SIB_API_KEY', '');
-            $curl = curl_init();
-            curl_setopt($curl, CURLOPT_HTTPHEADER, [
-                'Accept: application/json',
-                'api-key: ' . $api_key
-            ]);
-            curl_setopt($curl, CURLOPT_URL, 'https://api.brevo.com/v3/emailCampaigns?status=sent&limit=1&offset=0&sort=desc');
-            curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-
-            $result = curl_exec($curl);
-            curl_close($curl);
-
-            $latest_newsletter = json_decode($result);
-            echo $latest_newsletter->campaigns[0]->htmlContent;
-
+            // Latest sent campaign from Brevo, cached so every page view does not hit the API
+            $latest_newsletter = Illuminate\Support\Facades\Cache::remember('latest_newsletter', 600, function () {
+                try {
+                    return Illuminate\Support\Facades\Http::timeout(5)
+                        ->acceptJson()
+                        ->withHeaders(['api-key' => (string) config('services.brevo.key')])
+                        ->get('https://api.brevo.com/v3/emailCampaigns', [
+                            'status' => 'sent', 'limit' => 1, 'offset' => 0, 'sort' => 'desc',
+                        ])
+                        ->json('campaigns.0.htmlContent');
+                } catch (\Throwable $e) {
+                    report($e);
+                    return null;
+                }
+            });
             @endphp
+            {!! $latest_newsletter !!}
         </div>
     </div>
 

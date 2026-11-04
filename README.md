@@ -1,21 +1,24 @@
 # fablabto_laravel
-New FablabTorino Website in Laravel
+New FablabTorino Website in Laravel 13 (PHP 8.3 or newer).
 
-To install on Namecheap VPS:
-
-1. clone repo in "laravel" folder
-2. inside laravel folder run "php -c php.ini composer.phar install"
-3. copy PUBLIC folder (output of "npm run prod") on server 
-4. create a symlink: ./public_html => laravel/public 
+The site is a set of Blade pages (routes/web.php, resources/views): no database, no logins.
 
 ## Local dev
 
-./artisan serve
-npm run watch
+    composer install
+    cp .env.example .env && php artisan key:generate
+    npm install
+    php artisan serve
+    npm run watch
 
-Without a local PHP, run the server in Docker (PHP 7.4, needed by Laravel 5.8):
+Without a local PHP, use Docker:
 
-docker run --rm -it -u "$(id -u):$(id -g)" -v "$PWD":/app -w /app -p 8000:8000 php:7.4-cli php artisan serve --host=0.0.0.0 --port=8000
+    docker run --rm -it -u "$(id -u):$(id -g)" -v "$PWD":/app -w /app composer:2 install
+    docker run --rm -it -u "$(id -u):$(id -g)" -v "$PWD":/app -w /app -p 8000:8000 php:8.3-cli php artisan serve --host=0.0.0.0 --port=8000
+
+Tests (every page renders, redirects work, no debug leaks):
+
+    php artisan test
 
 ## Projects
 
@@ -33,15 +36,27 @@ To add it by hand:
 
 ## Deploy
 
-Never upload the local .env: the server keeps its own, with APP_ENV=production and APP_DEBUG=false.
+    ./deploy.sh
 
-export NODE_OPTIONS=--openssl-legacy-provider
-npm run production
-rsync -rvz -P public resources routes fablab:laravel
-
-"fablab" is an SSH alias: ask the maintainers for the host details and add them to your ~/.ssh/config:
+It builds the assets, installs the PHP dependencies without the dev ones, uploads everything to the server
+and refreshes Laravel's caches there. It needs npm, Docker (or composer) and the "fablab" SSH alias:
+ask the maintainers for the host details and add them to your ~/.ssh/config:
 
     Host fablab
         HostName <server>
         Port <port>
         User <user>
+
+The server keeps its own .env, which is never uploaded. It only needs:
+
+    APP_ENV=production
+    APP_DEBUG=false
+    APP_KEY=base64:...        (php artisan key:generate --force)
+    APP_URL=https://fablabtorino.org
+    SESSION_SECURE_COOKIE=true
+    SIB_API_KEY=...           (Brevo API key, for the latest newsletter on /newsletter)
+
+APP_DEBUG must stay false: with it on, error pages show the whole .env to anyone.
+
+On the server the app lives in ~/laravel, and public_html is a symlink to laravel/public.
+The domain must run PHP 8.3 or newer (cPanel > Select PHP Version).
