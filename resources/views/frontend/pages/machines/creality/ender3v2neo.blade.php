@@ -58,7 +58,7 @@
                             <li><i class="fa fa-circle"></i> Diametro ugello: 0.4 mm</li>
                             <li><i class="fa fa-circle"></i> Diametro filamento: 1.75 mm</li>
                             <li><i class="fa fa-circle"></i> Altezza layer: 0.05 - 0.35 mm</li>
-                            <li><i class="fa fa-circle"></i> Velocit&agrave; stampa: fino a 120 mm/sec</li>
+                            <li><i class="fa fa-circle"></i> Velocit&agrave; stampa: 100 mm/sec</li>
                             <li><i class="fa fa-circle"></i> Temperatura ugello / piatto: fino a 260 / 100 &deg;C</li>
                             <li><i class="fa fa-circle"></i> Livellamento automatico: CR Touch</li>
                             <li><i class="fa fa-circle"></i> Materiali: PLA, PETG, ABS</li>
