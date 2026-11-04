@@ -231,4 +231,63 @@ return [
 
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Debug Page Blacklist
+    |--------------------------------------------------------------------------
+    |
+    | Values hidden from the debug error page, in case APP_DEBUG is ever
+    | turned on by mistake. Production must always run with APP_DEBUG=false.
+    |
+    */
+
+    'debug_blacklist' => [
+        '_ENV' => [
+            'APP_KEY',
+            'DB_PASSWORD',
+            'DB_USERNAME',
+            'DATABASE_URL',
+            'MAIL_PASSWORD',
+            'MAIL_USERNAME',
+            'REDIS_PASSWORD',
+            'MEMCACHED_PASSWORD',
+            'AWS_ACCESS_KEY_ID',
+            'AWS_SECRET_ACCESS_KEY',
+            'MAILGUN_SECRET',
+            'POSTMARK_TOKEN',
+            'SPARKPOST_SECRET',
+            'PUSHER_APP_KEY',
+            'PUSHER_APP_SECRET',
+            'STRIPE_KEY',
+            'STRIPE_SECRET',
+            'STRIPE_WEBHOOK_SECRET',
+            'LOG_SLACK_WEBHOOK_URL',
+        ],
+        '_SERVER' => [
+            'APP_KEY',
+            'DB_PASSWORD',
+            'DB_USERNAME',
+            'DATABASE_URL',
+            'MAIL_PASSWORD',
+            'MAIL_USERNAME',
+            'REDIS_PASSWORD',
+            'MEMCACHED_PASSWORD',
+            'AWS_ACCESS_KEY_ID',
+            'AWS_SECRET_ACCESS_KEY',
+            'MAILGUN_SECRET',
+            'POSTMARK_TOKEN',
+            'SPARKPOST_SECRET',
+            'PUSHER_APP_KEY',
+            'PUSHER_APP_SECRET',
+            'STRIPE_KEY',
+            'STRIPE_SECRET',
+            'STRIPE_WEBHOOK_SECRET',
+            'LOG_SLACK_WEBHOOK_URL',
+        ],
+        '_POST' => [
+            'password',
+            'password_confirmation',
+        ],
+    ],
+
 ];

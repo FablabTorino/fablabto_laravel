@@ -7,7 +7,6 @@
 require('./bootstrap');
 window.swal = require('sweetalert');
 require('cross-browser');
-window.Cookies = require('js-cookie');
 require('scrollmonitor');
 require('paroller.js');
 window.QRCode = require('qrcode');
