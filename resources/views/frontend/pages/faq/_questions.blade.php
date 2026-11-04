@@ -16,7 +16,7 @@
                         Che tu sia un professionista o un appassionato non importa: al FablabTO trovi gli spazi, i macchinari e gli attrezzi adatti per realizzare i tuoi progetti,
                         sviluppi nuove competenze e condividi ci&ograve; che sai fare con una community di persone con i tuoi stessi interessi.<br />
                         Al FablabTO il fai-da-te tradizionale incontra le tecnologie Open Source e le tecniche della prototipazione rapida. Nel corso degli anni nel nostro laboratorio
-                        hanno visto la luce tantissimi progetti: per farti un’idea, dai un’occhiata <a href="projects">qui!</a>
+                        hanno visto la luce tantissimi progetti.<!--: per farti un’idea, dai un’occhiata <a href="projects">qui!</a> -->
 
                     </div>
                 </div>
